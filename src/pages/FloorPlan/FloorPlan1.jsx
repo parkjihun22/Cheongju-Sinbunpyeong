@@ -66,13 +66,13 @@ const FloorPlan1 = () => {
         <meta name="robots" content="index, follow" />
 
         {/* SEO 최적화를 위한 메타 태그 */}
-        <title>신분평 더웨이시티 - 평면안내</title>
+        <title>대전 문화공원 수자인 - 평면안내</title>
         <meta
           name="description"
-          content="신분평 더웨이시티의 평면도를 통해 세대별 구조와 공간 활용도를 확인하세요. 실용적이고 혁신적인 설계를 기반으로 한 다양한 평면 구성이 여러분의 생활을 더 편리하게 만듭니다.
+          content="대전 문화공원 수자인의 평면도를 통해 세대별 구조와 공간 활용도를 확인하세요. 실용적이고 혁신적인 설계를 기반으로 한 다양한 평면 구성이 여러분의 생활을 더 편리하게 만듭니다.
 "
         />
-        <meta name="keywords" content="신분평 더웨이시티, 신분평 더웨이시티, 신분평 더웨이시티모델하우스" />
+        <meta name="keywords" content="대전 문화공원 수자인, 대전 문화공원 수자인, 대전 문화공원 수자인모델하우스" />
         <link
           rel="canonical"
           href="https://www.vaaclubs.com/FloorPlan/59A"
@@ -81,11 +81,11 @@ const FloorPlan1 = () => {
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
         <meta
           property="og:title"
-          content="신분평 더웨이시티 - 평면안내"
+          content="대전 문화공원 수자인 - 평면안내"
         />
         <meta
           property="og:description"
-          content="신분평 더웨이시티의 평면도를 통해 세대별 구조와 공간 활용도를 확인하세요. 실용적이고 혁신적인 설계를 기반으로 한 다양한 평면 구성이 여러분의 생활을 더 편리하게 만듭니다.
+          content="대전 문화공원 수자인의 평면도를 통해 세대별 구조와 공간 활용도를 확인하세요. 실용적이고 혁신적인 설계를 기반으로 한 다양한 평면 구성이 여러분의 생활을 더 편리하게 만듭니다.
 "
         />
         <meta
@@ -96,17 +96,17 @@ const FloorPlan1 = () => {
           property="og:url"
           content="https://www.vaaclubs.com/FloorPlan/59A"
         />
-        <meta property="og:site_name" content="신분평 더웨이시티" />
+        <meta property="og:site_name" content="대전 문화공원 수자인" />
 
         {/* Twitter 카드 설정 */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="신분평 더웨이시티 - 평면안내"
+          content="대전 문화공원 수자인 - 평면안내"
         />
         <meta
           name="twitter:description"
-          content="신분평 더웨이시티의 평면도를 통해 세대별 구조와 공간 활용도를 확인하세요. 실용적이고 혁신적인 설계를 기반으로 한 다양한 평면 구성이 여러분의 생활을 더 편리하게 만듭니다.
+          content="대전 문화공원 수자인의 평면도를 통해 세대별 구조와 공간 활용도를 확인하세요. 실용적이고 혁신적인 설계를 기반으로 한 다양한 평면 구성이 여러분의 생활을 더 편리하게 만듭니다.
 "
         />
         <meta
@@ -124,8 +124,8 @@ const FloorPlan1 = () => {
 										{
 											"@context": "https://schema.org",
 											"@type": "WebPage",
-											"name": "신분평 더웨이시티 - 평면안내",
-											"description": "신분평 더웨이시티의 평면도를 통해 세대별 구조와 공간 활용도를 확인하세요. 실용적이고 혁신적인 설계를 기반으로 한 다양한 평면 구성이 여러분의 생활을 더 편리하게 만듭니다.
+											"name": "대전 문화공원 수자인 - 평면안내",
+											"description": "대전 문화공원 수자인의 평면도를 통해 세대별 구조와 공간 활용도를 확인하세요. 실용적이고 혁신적인 설계를 기반으로 한 다양한 평면 구성이 여러분의 생활을 더 편리하게 만듭니다.
 ",
 											"url": "https://www.vaaclubs.com/FloorPlan/59A"
 										}
@@ -141,10 +141,10 @@ const FloorPlan1 = () => {
       <MenuBar contents={menuContents} />
       {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
       <h1 className={styles.screenReaderOnly}>
-        신분평 더웨이시티 - 59A평면안내
+        대전 문화공원 수자인 - 59A평면안내
       </h1>
       <p className={styles.screenReaderOnly}>
-        59타입의평면 안내 페이지는 신분평 더웨이시티의 각 아파트
+        59타입의평면 안내 페이지는 대전 문화공원 수자인의 각 아파트
         평면도를 제공합니다. 고객들이 아파트의 구조를 정확히 이해하고, 자신의
         생활 스타일에 맞는 평형을 선택할 수 있도록 돕습니다. 다양한 평면 설계를
         확인하고 자신에게 맞는 최적의 공간을 찾아보세요.
@@ -159,7 +159,7 @@ const FloorPlan1 = () => {
       {/* <img
 				className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
 				src={page1}
-				alt="신분평 더웨이시티 59타입의평면안내이미지"
+				alt="대전 문화공원 수자인 59타입의평면안내이미지"
 				onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
 			/> */}
       <Ready/>

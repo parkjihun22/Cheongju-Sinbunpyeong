@@ -103,15 +103,15 @@ const LocationEnvironment1 = () => {
         <meta name="robots" content="index, follow" />
 
         {/* SEO 최적화를 위한 메타 태그 */}
-        <title>신분평 더웨이시티 - 입지환경</title>
+        <title>대전 문화공원 수자인 - 입지환경</title>
         <meta
           name="description"
-          content="신분평 더웨이시티의 입지 정보를 확인하세요. 뛰어난 교통망, 생활 인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 용인의 중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다
+          content="대전 문화공원 수자인의 입지 정보를 확인하세요. 뛰어난 교통망, 생활 인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 용인의 중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다
 "
         />
         <meta
           name="keywords"
-          content="신분평 더웨이시티, 신분평 더웨이시티, 신분평 더웨이시티모델하우스"
+          content="대전 문화공원 수자인, 대전 문화공원 수자인, 대전 문화공원 수자인모델하우스"
         />
         <link
           rel="canonical"
@@ -121,11 +121,11 @@ const LocationEnvironment1 = () => {
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
         <meta
           property="og:title"
-          content="신분평 더웨이시티 - 입지환경"
+          content="대전 문화공원 수자인 - 입지환경"
         />
         <meta
           property="og:description"
-          content="신분평 더웨이시티의 입지 정보를 확인하세요. 뛰어난 교통망, 생활 인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 용인의 중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다
+          content="대전 문화공원 수자인의 입지 정보를 확인하세요. 뛰어난 교통망, 생활 인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 용인의 중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다
 "
         />
         <meta
@@ -136,17 +136,17 @@ const LocationEnvironment1 = () => {
           property="og:url"
           content="https://www.vaaclubs.com/LocationEnvironment/intro"
         />
-        <meta property="og:site_name" content="신분평 더웨이시티" />
+        <meta property="og:site_name" content="대전 문화공원 수자인" />
 
         {/* Twitter 카드 설정 */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="신분평 더웨이시티 - 입지환경"
+          content="대전 문화공원 수자인 - 입지환경"
         />
         <meta
           name="twitter:description"
-          content="신분평 더웨이시티의 입지 정보를 확인하세요. 뛰어난 교통망, 생활 인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 용인의 중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다
+          content="대전 문화공원 수자인의 입지 정보를 확인하세요. 뛰어난 교통망, 생활 인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 용인의 중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다
 "
         />
         <meta
@@ -164,8 +164,8 @@ const LocationEnvironment1 = () => {
 										{
 											"@context": "https://schema.org",
 											"@type": "WebPage",
-											"name": "신분평 더웨이시티 - 입지환경",
-											"description": "신분평 더웨이시티의 입지 정보를 확인하세요. 뛰어난 교통망, 생활 인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 용인의 중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다
+											"name": "대전 문화공원 수자인 - 입지환경",
+											"description": "대전 문화공원 수자인의 입지 정보를 확인하세요. 뛰어난 교통망, 생활 인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 용인의 중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다
 ",
 											"url": "https://www.vaaclubs.com/LocationEnvironment/intro"
 										}
@@ -181,10 +181,10 @@ const LocationEnvironment1 = () => {
       <MenuBar contents={menuContents} />
       {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
       <h1 className={styles.screenReaderOnly}>
-        신분평 더웨이시티 - 입지안내
+        대전 문화공원 수자인 - 입지안내
       </h1>
       <p className={styles.screenReaderOnly}>
-        신분평 더웨이시티의 입지 정보를 확인하세요. 뛰어난 교통망, 생활
+        대전 문화공원 수자인의 입지 정보를 확인하세요. 뛰어난 교통망, 생활
         인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 용인의
         중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다
       </p>
@@ -192,7 +192,7 @@ const LocationEnvironment1 = () => {
       <div className={styles.textBox}>
         <div>갈수록 완벽해질 청주</div>
         <div>살수록 높아질 풍경채</div>
-        <div>도시를 압도할 자부심,신분평 더웨이시티 </div>
+        <div>도시를 압도할 자부심,대전 문화공원 수자인 </div>
       </div>
 
       <img
@@ -213,7 +213,7 @@ const LocationEnvironment1 = () => {
 
       <div className={styles.commonBox}>
         <div className={styles.notice}>
-          ※본 홍보물의 내용과 지역도는 소비자의 이해를 돕기 위한 것으로, 개발 예정•계획 및 교통, 학교 계획 등에 관한 사항은 해당 기관의 아래 자료를 토대로 제작되었습니다. 사업계획 및 일정은 개발계획별 사업주체에 의해 변경될 수 있으며, 신분평 더웨이시티 사업주체 및 시공사와 무관합니다.
+          ※본 홍보물의 내용과 지역도는 소비자의 이해를 돕기 위한 것으로, 개발 예정•계획 및 교통, 학교 계획 등에 관한 사항은 해당 기관의 아래 자료를 토대로 제작되었습니다. 사업계획 및 일정은 개발계획별 사업주체에 의해 변경될 수 있으며, 대전 문화공원 수자인 사업주체 및 시공사와 무관합니다.
         </div>
         {/* <div className={styles.notice}>
           ※첨단 시스템 반도체 클러스터(계획) : 국토교통부고시 제2024-853호 「용인 첨단시스템반도체 클러스터 국가산업단지 산업단지계획 및 지형도면 고시」 (2024.12.31)에 의한 것으로 향후 국토교통부에 의해 사업계획이 변경될 수 있습니다.

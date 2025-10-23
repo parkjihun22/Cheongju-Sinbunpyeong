@@ -59,7 +59,7 @@ const FloorPlan6 = () => {
 			<Header isChanged={isScroll} />
 			<FixIcon />
 
-			<Bener title="신분평 더웨이시티 119B 평면image" />
+			<Bener title="대전 문화공원 수자인 119B 평면image" />
 
 			<MenuBar contents={menuContents} />
 

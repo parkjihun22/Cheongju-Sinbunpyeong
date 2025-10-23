@@ -64,13 +64,13 @@ const BusinessGuide2 = () => {
         <meta name="robots" content="index, follow" />
 
         {/* SEO 최적화를 위한 메타 태그 */}
-        <title>신분평 더웨이시티 - 분양일정</title>
+        <title>대전 문화공원 수자인 - 분양일정</title>
         <meta
           name="description"
-          content="신분평 더웨이시티의 최신 분양일정을 확인하고, 분양 일정 및 세부 사항을 이 페이지에서 자세히 확인하세요. 놓치지 마세요!
+          content="대전 문화공원 수자인의 최신 분양일정을 확인하고, 분양 일정 및 세부 사항을 이 페이지에서 자세히 확인하세요. 놓치지 마세요!
 "
         />
-        <meta name="keywords" content="신분평 더웨이시티, 신분평 더웨이시티, 신분평 더웨이시티모델하우스" />
+        <meta name="keywords" content="대전 문화공원 수자인, 대전 문화공원 수자인, 대전 문화공원 수자인모델하우스" />
         <link
           rel="canonical"
           href="https://www.vaaclubs.com/BusinessGuide/plan"
@@ -79,11 +79,11 @@ const BusinessGuide2 = () => {
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
         <meta
           property="og:title"
-          content="신분평 더웨이시티 - 분양일정"
+          content="대전 문화공원 수자인 - 분양일정"
         />
         <meta
           property="og:description"
-          content="신분평 더웨이시티의 최신 분양일정을 확인하고, 분양 일정 및 세부 사항을 이 페이지에서 자세히 확인하세요. 놓치지 마세요!
+          content="대전 문화공원 수자인의 최신 분양일정을 확인하고, 분양 일정 및 세부 사항을 이 페이지에서 자세히 확인하세요. 놓치지 마세요!
 "
         />
         <meta
@@ -94,17 +94,17 @@ const BusinessGuide2 = () => {
           property="og:url"
           content="https://www.vaaclubs.com/BusinessGuide/plan"
         />
-        <meta property="og:site_name" content="신분평 더웨이시티" />
+        <meta property="og:site_name" content="대전 문화공원 수자인" />
 
         {/* Twitter 카드 설정 */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="신분평 더웨이시티 - 분양일정"
+          content="대전 문화공원 수자인 - 분양일정"
         />
         <meta
           name="twitter:description"
-          content="신분평 더웨이시티의 최신 분양일정을 확인하고, 분양 일정 및 세부 사항을 이 페이지에서 자세히 확인하세요. 놓치지 마세요!
+          content="대전 문화공원 수자인의 최신 분양일정을 확인하고, 분양 일정 및 세부 사항을 이 페이지에서 자세히 확인하세요. 놓치지 마세요!
 "
         />
         <meta
@@ -122,8 +122,8 @@ const BusinessGuide2 = () => {
                                         {
                                             "@context": "https://schema.org",
                                             "@type": "WebPage",
-                                            "name": "신분평 더웨이시티 - 분양일정",
-                                            "description": "신분평 더웨이시티의 최신 분양일정을 확인하고, 분양 일정 및 세부 사항을 이 페이지에서 자세히 확인하세요. 놓치지 마세요!
+                                            "name": "대전 문화공원 수자인 - 분양일정",
+                                            "description": "대전 문화공원 수자인의 최신 분양일정을 확인하고, 분양 일정 및 세부 사항을 이 페이지에서 자세히 확인하세요. 놓치지 마세요!
 ",
                                             "url": "https://www.vaaclubs.com/BusinessGuide/plan"
                                         }
@@ -137,18 +137,18 @@ const BusinessGuide2 = () => {
             <Bener title="사업개요" />
             <MenuBar contents={menuContents} />
 
-            <h1 className={styles.screenReaderOnly}>신분평 더웨이시티 - 분양일정</h1>
+            <h1 className={styles.screenReaderOnly}>대전 문화공원 수자인 - 분양일정</h1>
             <p className={styles.screenReaderOnly}>
-			신분평 더웨이시티의 분양 일정은 중요한 날짜들을 안내하는 핵심 정보입니다.
+			대전 문화공원 수자인의 분양 일정은 중요한 날짜들을 안내하는 핵심 정보입니다.
             </p>
 
             <div className={styles.textBox}>
                 <div>청주의 눈부신 가치 위에</div>
-                <div>신분평 더웨이시티의 새로운 자부심으로 찾아옵니다.</div>
+                <div>대전 문화공원 수자인의 새로운 자부심으로 찾아옵니다.</div>
             </div>
 
             {/* ✅ 기존 이미지 부분 주석 처리하고 Ready 컴포넌트 표시 */}
-            {/* <img className={`${styles.image4} ${isImageVisible ? styles.visible : ''}`} src={page1} alt="신분평 더웨이시티 분양일정안내-image1" />
+            {/* <img className={`${styles.image4} ${isImageVisible ? styles.visible : ''}`} src={page1} alt="대전 문화공원 수자인 분양일정안내-image1" />
             <div className={styles.readyContainer}>
            
             </div> */}

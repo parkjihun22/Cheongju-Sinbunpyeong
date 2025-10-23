@@ -68,13 +68,13 @@ const FloorPlanVideos = () => {
         <meta name="robots" content="index, follow" />
 
         {/* SEO 최적화를 위한 메타 태그 */}
-        <title>신분평 더웨이시티 - 평면안내</title>
+        <title>대전 문화공원 수자인 - 평면안내</title>
         <meta
           name="description"
-          content="세대안내영상 안내 페이지는 신분평 더웨이시티의 각 아파트 세대안내영상을 제공합니다.
+          content="세대안내영상 안내 페이지는 대전 문화공원 수자인의 각 아파트 세대안내영상을 제공합니다.
 "
         />
-        <meta name="keywords" content="신분평 더웨이시티, 신분평 더웨이시티, 신분평 더웨이시티모델하우스" />
+        <meta name="keywords" content="대전 문화공원 수자인, 대전 문화공원 수자인, 대전 문화공원 수자인모델하우스" />
         <link
           rel="canonical"
           href="https://www.vaaclubs.com/FloorPlan/videos"
@@ -83,11 +83,11 @@ const FloorPlanVideos = () => {
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
         <meta
           property="og:title"
-          content="신분평 더웨이시티 - 평면안내"
+          content="대전 문화공원 수자인 - 평면안내"
         />
         <meta
           property="og:description"
-          content="세대안내영상 안내 페이지는 신분평 더웨이시티의 각 아파트 세대안내영상을 제공합니다.
+          content="세대안내영상 안내 페이지는 대전 문화공원 수자인의 각 아파트 세대안내영상을 제공합니다.
 "
         />
         <meta
@@ -98,17 +98,17 @@ const FloorPlanVideos = () => {
           property="og:url"
           content="https://www.vaaclubs.com/FloorPlan/videos"
         />
-        <meta property="og:site_name" content="신분평 더웨이시티" />
+        <meta property="og:site_name" content="대전 문화공원 수자인" />
 
         {/* Twitter 카드 설정 */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="신분평 더웨이시티 - 평면안내"
+          content="대전 문화공원 수자인 - 평면안내"
         />
         <meta
           name="twitter:description"
-          content="세대안내영상 안내 페이지는 신분평 더웨이시티의 각 아파트 세대안내영상을 제공합니다.
+          content="세대안내영상 안내 페이지는 대전 문화공원 수자인의 각 아파트 세대안내영상을 제공합니다.
 "
         />
         <meta
@@ -126,8 +126,8 @@ const FloorPlanVideos = () => {
                     {
                       "@context": "https://schema.org",
                       "@type": "WebPage",
-                      "name": "신분평 더웨이시티 - 평면안내",
-                      "description": "세대안내영상 안내 페이지는 신분평 더웨이시티의 각 아파트 세대안내영상을 제공합니다.
+                      "name": "대전 문화공원 수자인 - 평면안내",
+                      "description": "세대안내영상 안내 페이지는 대전 문화공원 수자인의 각 아파트 세대안내영상을 제공합니다.
 ",
                       "url": "https://www.vaaclubs.com/FloorPlan/videos"
                     }
@@ -141,7 +141,7 @@ const FloorPlanVideos = () => {
       <MenuBar contents={menuContents} />
 
       <h1 className={styles.screenReaderOnly}>
-        신분평 더웨이시티 - 홍보영상
+        대전 문화공원 수자인 - 홍보영상
       </h1>
       <p className={styles.screenReaderOnly}>세대안내영상 안내 페이지입니다.</p>
 

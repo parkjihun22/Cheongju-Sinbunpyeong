@@ -15,7 +15,7 @@ import tableImage from "../../assets/BusinessGuide/BusinessGuide1/tableImage.jpg
 
 
 const projectData = [
-	{ label: '사업명', value: '신분평 더웨이시티 1BL' },
+	{ label: '사업명', value: '대전 문화공원 수자인 1BL' },
 	{ label: '사업위치', value: '충청북도 청주시 서원구 장성동 204번지 일원' },
 	{ label: '대지면적', value: '62,267.00㎡(18,835.76평)' },
 	{ label: '조경면적', value: '26,230.48㎡(7,934.72평) / 조경률 42.13%' },
@@ -66,7 +66,7 @@ const BusinessGuide1 = () => {
 
 			<div className={styles.textBox}>
 				<div>청주를 누리는 특별한 라이프 컬렉션</div>
-				<div>신분평 더웨이시티의 새로운 자부심으로 찾아옵니다.</div>
+				<div>대전 문화공원 수자인의 새로운 자부심으로 찾아옵니다.</div>
 			</div>
 
 			<img className={styles.img3} src={page1} />

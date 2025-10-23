@@ -176,12 +176,12 @@ const handleInputChange = (e) => {
         />
 
         {/* SEO 최적화를 위한 메타 태그 추가 */}
-        <title>▪신분평 더웨이시티</title>
+        <title>▪대전 문화공원 수자인</title>
         <meta
           name="description"
-          content="신분평 더웨이시티ㅣ☎️(대표)1533-8848ㅣ신분평 더웨이시티ㅣ견본주택ㅣ모델하우스ㅣ위치ㅣ청약ㅣ분양ㅣ분양가ㅣ공급정보ㅣ잔여세대문의ㅣ고객센터ㅣ방문예약"
+          content="대전 문화공원 수자인ㅣ☎️(대표)1533-8848ㅣ대전 문화공원 수자인ㅣ견본주택ㅣ모델하우스ㅣ위치ㅣ청약ㅣ분양ㅣ분양가ㅣ공급정보ㅣ잔여세대문의ㅣ고객센터ㅣ방문예약"
         />
-        <meta name="keywords" content="신분평 더웨이시티, 신분평 더웨이시티, 신분평 더웨이시티모델하우스" />
+        <meta name="keywords" content="대전 문화공원 수자인, 대전 문화공원 수자인, 대전 문화공원 수자인모델하우스" />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://www.vaaclubs.com/" />
 
@@ -192,11 +192,11 @@ const handleInputChange = (e) => {
         {/* Open Graph - 소셜 미디어(페이스북, LinkedIn 등) 공유 최적화 */}
         <meta
           property="og:title"
-          content="▪신분평 더웨이시티"
+          content="▪대전 문화공원 수자인"
         />
         <meta
           property="og:description"
-          content="신분평 더웨이시티ㅣ☎️(대표)1533-8848ㅣ신분평 더웨이시티ㅣ견본주택ㅣ모델하우스ㅣ위치ㅣ청약ㅣ분양ㅣ분양가ㅣ공급정보ㅣ잔여세대문의ㅣ고객센터ㅣ방문예약"
+          content="대전 문화공원 수자인ㅣ☎️(대표)1533-8848ㅣ대전 문화공원 수자인ㅣ견본주택ㅣ모델하우스ㅣ위치ㅣ청약ㅣ분양ㅣ분양가ㅣ공급정보ㅣ잔여세대문의ㅣ고객센터ㅣ방문예약"
         />
         <meta property="og:url" content="https://www.vaaclubs.com/" />
         <meta property="og:type" content="website" />
@@ -209,11 +209,11 @@ const handleInputChange = (e) => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="▪신분평 더웨이시티"
+          content="▪대전 문화공원 수자인"
         />
         <meta
           name="twitter:description"
-          content="신분평 더웨이시티ㅣ☎️(대표)1533-8848ㅣ신분평 더웨이시티ㅣ견본주택ㅣ모델하우스ㅣ위치ㅣ청약ㅣ분양ㅣ분양가ㅣ공급정보ㅣ잔여세대문의ㅣ고객센터ㅣ방문예약"
+          content="대전 문화공원 수자인ㅣ☎️(대표)1533-8848ㅣ대전 문화공원 수자인ㅣ견본주택ㅣ모델하우스ㅣ위치ㅣ청약ㅣ분양ㅣ분양가ㅣ공급정보ㅣ잔여세대문의ㅣ고객센터ㅣ방문예약"
         />
         <meta
           name="twitter:image"
@@ -226,7 +226,7 @@ const handleInputChange = (e) => {
       {
         "@context": "http://schema.org",
         "@type": "ApartmentComplex",
-        "name": "신분평 더웨이시티",
+        "name": "대전 문화공원 수자인",
         "description": "브랜드 평판 1위 프리미엄 아파트. 방문 예약 시 신세계상품권 증정 등 다양한 혜택을 제공합니다.",
         "url": "https://www.vaaclubs.com/",
         "image": "https://www.vaaclubs.com/Main1.png",
@@ -272,7 +272,7 @@ const handleInputChange = (e) => {
             <img
               src={mainImage}
               className={styles.mainImage}
-              alt="신분평 더웨이시티-mainimage1"
+              alt="대전 문화공원 수자인-mainimage1"
             />
             <div className={styles.overlay}></div>
             <div className={styles.mainImageTextBox}>
@@ -289,7 +289,7 @@ const handleInputChange = (e) => {
                   청주가 기다린 가장 착한 아파트
                 </div>
                 <div className={styles.mainImageLine}></div>
-                <div className={styles.mainImageText}>신분평 더웨이시티</div>
+                <div className={styles.mainImageText}>대전 문화공원 수자인</div>
               </div>
               {/* 기존 관심고객 등록 링크 대신 방문예약 버튼 클릭 시 팝업 오픈 */}
               <div>
@@ -300,7 +300,7 @@ const handleInputChange = (e) => {
                   <img
                     src={subpinkimg}
                     className={styles.subPinkImg}
-                    alt="신분평 더웨이시티 관심고객등록"
+                    alt="대전 문화공원 수자인 관심고객등록"
                   />
                 </button>
               </div>
@@ -320,7 +320,7 @@ const handleInputChange = (e) => {
                   경안천 수변공원으로 쾌적한 힐링 라이프 <br />
                   - 지역 내 주요 간선도로 및 교통망 개선을 통해 주요지역 연결
                   광역교통망의 중심
-                  <br />- 모두를 누리는 신분평 더웨이시티
+                  <br />- 모두를 누리는 대전 문화공원 수자인
                 </div>
                 <div className={styles.text4}>
                   <a
@@ -337,7 +337,7 @@ const handleInputChange = (e) => {
               <div className={styles.menuBox}>
                 <img
                   src={section1_Image1}
-                  alt="신분평 더웨이시티 브랜드소개-image2"
+                  alt="대전 문화공원 수자인 브랜드소개-image2"
                 />
                 <Link to="/Brand/video" className={styles.btn}>
                   브랜드 소개 {">"}
@@ -354,7 +354,7 @@ const handleInputChange = (e) => {
                   <br />
                   <span>
                     최고의 브랜드 아파트 <br />
-                    신분평 더웨이시티
+                    대전 문화공원 수자인
                   </span>
                 </div>
                 <div className={styles.subTitle}>
@@ -362,13 +362,13 @@ const handleInputChange = (e) => {
                   <div className={styles.subText}>
                     찬란한 비전에 완벽한 주거가치까지 더해
                     <br />
-                    신분평 더웨이시티가 함께합니다
+                    대전 문화공원 수자인가 함께합니다
                   </div>
                 </div>
               </div>
               <img
                 src={section8Img3}
-                alt="신분평 더웨이시티 입지환경소개-image2"
+                alt="대전 문화공원 수자인 입지환경소개-image2"
               />
             </div>
           </div>
@@ -382,7 +382,7 @@ const handleInputChange = (e) => {
                 <div className={`${styles.text2} fadeUpRepeat`}>
                   기대한 모든 프리미엄이
                   <br />
-                  신분평 더웨이시티에서 펼쳐집니다
+                  대전 문화공원 수자인에서 펼쳐집니다
                 </div>
                 <div className={`${styles.text3} fadeUpRepeat`}>
                   SPECIAL PLAN
@@ -402,7 +402,7 @@ const handleInputChange = (e) => {
               </div>
               <img
                 src={section2_Image1}
-                alt="신분평 더웨이시티 아파트 조감도-image3"
+                alt="대전 문화공원 수자인 아파트 조감도-image3"
               />
             </div>
           </div>
@@ -434,9 +434,9 @@ const handleInputChange = (e) => {
               <div className={styles.imageBox}>
                 <img
                   src={section4_Image1}
-                  alt="신분평 더웨이시티 브랜드소개-image4"
+                  alt="대전 문화공원 수자인 브랜드소개-image4"
                 />
-                <div className={styles.text1}>신분평 더웨이시티</div>
+                <div className={styles.text1}>대전 문화공원 수자인</div>
                 <div className={styles.text2}>THE NATURAL NOBILITY</div>
                 <div className={styles.text3}>
                   당신의 삶, 그 고귀함이 계속되길
@@ -458,7 +458,7 @@ const handleInputChange = (e) => {
   {/* 상단 타이틀 영역 (좌: 제목/부제, 우: 안내문구) */}
   <div className={styles.pcTitleRow}>
     <div className={styles.leftTitle}>
-      <h2>신분평 더웨이시티</h2>
+      <h2>대전 문화공원 수자인</h2>
       <p>방문예약</p>
     </div>
     <div className={styles.rightText}>
@@ -518,7 +518,7 @@ const handleInputChange = (e) => {
             <div className={styles.section9}>
               <div className={styles.textBox}>
                 <div className={styles.title}>
-                  신분평 더웨이시티
+                  대전 문화공원 수자인
                   <br />
                   <span>견본주택 오시는길</span>
                 </div>
@@ -527,11 +527,11 @@ const handleInputChange = (e) => {
                   <div className={styles.subText}>
                     찬란한 비전에 완벽한 주거가치까지 더해
                     <br />
-                    신분평 더웨이시티가 함께합니다
+                    대전 문화공원 수자인가 함께합니다
                   </div>
                 </div>
               </div>
-              <img src={map1} alt="신분평 더웨이시티 오시는길안내-image1" />
+              <img src={map1} alt="대전 문화공원 수자인 오시는길안내-image1" />
             </div>
           </div> */}
 
@@ -585,7 +585,7 @@ const handleInputChange = (e) => {
             <img
               src={mobileImageMain}
               className={styles.mainImage}
-              alt="신분평 더웨이시티 mobilemain-image1"
+              alt="대전 문화공원 수자인 mobilemain-image1"
             />
             <div className={styles.overlay}></div>
             <div className={styles.mainImageTextBox1}>
@@ -604,7 +604,7 @@ const handleInputChange = (e) => {
               </div>
               <div className={styles.mainImageTitleBox1}>
               <div className={styles.mainImageText1}>청주가 기다린 착한아파트 </div>
-                <div className={styles.mainImageText1}>신분평 더웨이시티</div>
+                <div className={styles.mainImageText1}>대전 문화공원 수자인</div>
               </div>
             </div>
           </div>
@@ -649,13 +649,13 @@ const handleInputChange = (e) => {
                 <div className={styles.subText}>
                   완벽한 비전중심에서 완벽한 주거가치까지 더해
                   <br />
-                  신분평 더웨이시티가 함께합니다
+                  대전 문화공원 수자인가 함께합니다
                 </div>
               </div>
             </div>
             <img
               src={section8Img3}
-              alt="신분평 더웨이시티 mobile입지안내-image1"
+              alt="대전 문화공원 수자인 mobile입지안내-image1"
             />
           </div>
 
@@ -667,19 +667,19 @@ const handleInputChange = (e) => {
               <div className={`${styles.text2} fadeUpRepeat`}>
                 기대한 모든 프리미엄이
                 <br />
-                신분평 더웨이시티에서 펼쳐집니다
+                대전 문화공원 수자인에서 펼쳐집니다
               </div>
               <div className={`${styles.text3} fadeUpRepeat`}>SPECIAL PLAN</div>
               <div className={`${styles.text4} fadeUpRepeat`}>
                 살수록 자부심이 차원이 다른
                 <br />
-                프리미엄 주거라이프를 신분평 더웨이시티에서<br />
+                프리미엄 주거라이프를 대전 문화공원 수자인에서<br />
                 확인하세요
               </div>
             </div>
             <img
               src={section2_Image1}
-              alt="신분평 더웨이시티 mobile조감도-image1"
+              alt="대전 문화공원 수자인 mobile조감도-image1"
             />
           </div>
 
@@ -709,7 +709,7 @@ const handleInputChange = (e) => {
             <div>
               <img
                 src={section1_Image1}
-                alt="신분평 더웨이시티 브랜드소개 mobile-image5"
+                alt="대전 문화공원 수자인 브랜드소개 mobile-image5"
               />
               <Link to="/Brand/intro" className={styles.btn}>
                 브랜드 소개 {">"}
@@ -719,7 +719,7 @@ const handleInputChange = (e) => {
 
           {/* 모바일 방문예약 섹션 */}
 <div className={styles.mobileVisitContainer}>
-  <h2>신분평 더웨이시티</h2>
+  <h2>대전 문화공원 수자인</h2>
   <p className={styles.mobileSubTitle}>방문예약</p>
   <p className={styles.mobileInfoText}>
     방문예약 등록 시 모델하우스 주소 SMS발송 및<br />
@@ -772,7 +772,7 @@ const handleInputChange = (e) => {
             <div className={styles.section9}>
               <img
                 src={mobilemap1}
-                alt="신분평 더웨이시티 오시는길안내-mobileimage2"
+                alt="대전 문화공원 수자인 오시는길안내-mobileimage2"
               />
             </div>
           </div> */}

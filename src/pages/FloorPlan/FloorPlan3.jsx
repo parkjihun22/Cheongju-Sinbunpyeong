@@ -73,7 +73,7 @@ const FloorPlan3 = () => {
 			{/* <img
 				className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
 				src={page1}
-				alt="신분평 더웨이시티 84A 평면안내 이미지"
+				alt="대전 문화공원 수자인 84A 평면안내 이미지"
 				onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
 			/> */}
 			<Ready/>
