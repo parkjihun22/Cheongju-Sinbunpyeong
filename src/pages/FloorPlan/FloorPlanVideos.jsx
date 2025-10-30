@@ -57,98 +57,17 @@ const FloorPlanVideos = () => {
 
   return (
     <div className={styles.container}>
-      <Helmet>
-        {/* 기본 문자셋 및 모바일 최적화를 위한 meta 태그 */}
-        <meta charSet="utf-8" />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1, maximum-scale=1"
-        />
-        <meta name="theme-color" content="#ffffff" />
-        <meta name="robots" content="index, follow" />
-
-        {/* SEO 최적화를 위한 메타 태그 */}
-        <title>대전 문화공원 수자인 - 평면안내</title>
-        <meta
-          name="description"
-          content="세대안내영상 안내 페이지는 대전 문화공원 수자인의 각 아파트 세대안내영상을 제공합니다.
-"
-        />
-        <meta name="keywords" content="대전 문화공원 수자인, 대전 문화공원 수자인, 대전 문화공원 수자인모델하우스" />
-        <link
-          rel="canonical"
-          href="https://www.vaaclubs.com/FloorPlan/videos"
-        />
-
-        {/* Open Graph - 소셜 미디어 공유 최적화 */}
-        <meta
-          property="og:title"
-          content="대전 문화공원 수자인 - 평면안내"
-        />
-        <meta
-          property="og:description"
-          content="세대안내영상 안내 페이지는 대전 문화공원 수자인의 각 아파트 세대안내영상을 제공합니다.
-"
-        />
-        <meta
-          property="og:image"
-          content="https://www.vaaclubs.com/Main1.png"
-        />
-        <meta
-          property="og:url"
-          content="https://www.vaaclubs.com/FloorPlan/videos"
-        />
-        <meta property="og:site_name" content="대전 문화공원 수자인" />
-
-        {/* Twitter 카드 설정 */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="대전 문화공원 수자인 - 평면안내"
-        />
-        <meta
-          name="twitter:description"
-          content="세대안내영상 안내 페이지는 대전 문화공원 수자인의 각 아파트 세대안내영상을 제공합니다.
-"
-        />
-        <meta
-          name="twitter:image"
-          content="https://www.vaaclubs.com/Main1.png"
-        />
-        <meta
-          name="twitter:url"
-          content="https://www.vaaclubs.com/FloorPlan/videos"
-        />
-
-        {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
-        <script type="application/ld+json">
-          {`
-                    {
-                      "@context": "https://schema.org",
-                      "@type": "WebPage",
-                      "name": "대전 문화공원 수자인 - 평면안내",
-                      "description": "세대안내영상 안내 페이지는 대전 문화공원 수자인의 각 아파트 세대안내영상을 제공합니다.
-",
-                      "url": "https://www.vaaclubs.com/FloorPlan/videos"
-                    }
-                    `}
-        </script>
-      </Helmet>
 
       <Header isChanged={isScroll} />
       <FixIcon />
       <Bener title="세대안내" />
       <MenuBar contents={menuContents} />
 
-      <h1 className={styles.screenReaderOnly}>
-        대전 문화공원 수자인 - 홍보영상
-      </h1>
-      <p className={styles.screenReaderOnly}>세대안내영상 안내 페이지입니다.</p>
 
       <div className={styles.textBox}>
-        <div>청주의 눈부신 가치 위에 찾아오는</div>
-        <div>풍경채의 가치를 영상으로 확인해보세요</div>
-      </div>
+  <div>실용성과 개방감을 높인 혁신 설계</div>
+  <div>일상을 편안하게 만드는 수자인의 평면</div>
+</div>
 
       {/* 탭 메뉴 */}
       <div className={styles.tabMenu}>

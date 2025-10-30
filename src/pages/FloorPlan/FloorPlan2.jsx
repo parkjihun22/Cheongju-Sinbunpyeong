@@ -10,7 +10,7 @@ import FixIcon from "../../components/FixIcon/FixIcon";
 import HelmetCOM from "../../components/HelmetCOM/HelmetCOM";
 import { Helmet } from "react-helmet-async";
 
-// import page1 from "../../assets/FloorPlan/FloorPlan2/page1.jpg"
+import page1 from "../../assets/FloorPlan/FloorPlan2/unit02.jpg"
 import Ready from "../../components/Ready/Ready";
 
 const FloorPlan2 = () => {
@@ -70,18 +70,18 @@ const FloorPlan2 = () => {
 			</p>
 
 			<div className={styles.textBox}>
-				<div>청주의 눈부신 가치 위에</div>
-				<div>풍경채의 새로운 자부심으로 찾아옵니다.</div>
-			</div>
+				<div>실용성과 개방감을 높인 혁신 설계</div>
+				<div>일상을 편안하게 만드는 수자인의 평면</div>
+				</div>
 
 			{/* 이미지에 애니메이션 효과 추가 */}
-			{/* <img
+			<img
 				className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
 				src={page1}
 				alt="대전 문화공원 수자인 59B 평면안내 이미지"
 				onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
-			/> */}
-			<Ready/>
+			/>
+
 
 		
 

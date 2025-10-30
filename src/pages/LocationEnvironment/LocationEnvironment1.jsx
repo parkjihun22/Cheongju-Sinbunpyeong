@@ -22,43 +22,42 @@ import HelmetCOM from "../../components/HelmetCOM/HelmetCOM";
 const LocationSection = [
   {
     img: section2Image1,
-    titleText:
-      "미래가치를 높여주는<br />용인반도체 벨트 ",
+    titleText: "도심 속 숲세권 프리미엄<br />대전 문화공원을 품다",
     contentText:
-      "첨단시스템 반도체 클러스터(계획), 용인반도체 클러스터 일반산업단지<br />L자형 반도체벨트의 비전을 선점하는<br />독보적 프리미엄 브랜드",
+      "약 15만 7천㎡ 규모의 대전 문화공원과 맞닿은 자연친화적 입지로<br />일상 속에서 힐링과 여유를 누리는 도심 속 숲세권 단지",
   },
   {
     img: section2Image2,
-    titleText: "차량 10분내 대형병원 인접<br />의세권을 누리릴 수 있는 프리미엄",
+    titleText: "트램과 광역철도로 연결되는<br />대전의 새로운 교통 허브",
     contentText:
-      "용인의 의세권을 책임지는<br />오래된 의료경력을 갖고 있는<br /> 500병상 규모 명지병원 인접",
+      "대전 2호선 트램(예정), 서대전역 KTX, 충청권 광역철도망 등<br />사통팔달 교통 네트워크로 어디든 빠르게",
   },
   {
     img: section2Image3,
-    titleText: "어디든 빠르게 연결되는<br />광역으로 통하는 특급 교통",
+    titleText: "교육·문화·생활 인프라를<br />한 걸음에 누리는 중심입지",
     contentText:
-      "국도42호선,국도45호선, 세종-포천고속도로 등<br />편리한 교통망에 더해지는 반도체 클러스터 교통망으로 <br /> 동탄학원가와 반도체 캠퍼스를 빠르게게  ",
+      "초·중학교, 한밭도서관, 이마트, 홈플러스, 대형병원 등<br />대전 중구 생활권의 풍부한 인프라를 도보권에서 누리는 입지",
   },
   {
     img: section2Image4,
-    titleText:
-      "학교, 쇼핑,병원, 문화를 더 가깝게 한걸음에<br />SMART 인프라",
+    titleText: "공원·조경·수변이 어우러진<br />힐링 라이프",
     contentText:
-      "이마트,CGV,처인구청 등 처인구 도심의 <br />다양한 생활인프라",
+      "대전 문화공원, 보문산, 경관녹지축이 어우러진 쾌적한 자연환경과<br />단지 내 조경 및 산책로 설계로 완성된 프리미엄 주거공간",
   },
   {
     img: section2Image5,
-    titleText: "3,724세대 풍경채<br />대단지 프리미엄 ",
-    contentText: "총 3,724세대 풍경채 메가타운으로 <br / >누리는 대단지 프리미엄과<br / >지구 내 초등학교 부지(계획), 도서관 및 체육시설 ",
+    titleText: "도심 속에서도<br />조용하고 품격 있는 주거공간",
+    contentText:
+      "도심 생활의 편리함은 그대로, 자연과 함께하는<br />조용하고 쾌적한 주거환경으로 일상의 품격을 높입니다",
   },
   {
     img: section2Image6,
-    titleText:
-      "편리한 생활에 더해지는<br />쾌적한 자연환경  ",
+    titleText: "민간공원 특례사업으로 조성되는<br />미래가치 높은 명품단지",
     contentText:
-      "이마트,CGV,처인구청 등 처인구 도심의 <br />다양한 생활인프라, 은화삼 CC및 <br / > 국도45호선 상부공원화 조성 <br / >단지앞 경안천 수변공원",
+      "민간공원 특례사업으로 조성되는 공원과 주거의 복합단지<br />희소성과 프리미엄이 결합된 미래가치 높은 수자인",
   },
 ];
+
 
 const LocationEnvironment1 = () => {
   const menuContents = [
@@ -91,7 +90,79 @@ const LocationEnvironment1 = () => {
   }, []);
 
   return (
-    <div className={styles.container}>
+    <div className={styles.container}><Helmet>
+    {/* 기본 문자셋 및 모바일 최적화를 위한 meta 태그 */}
+    <meta charSet="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="robots" content="index, follow" />
+  
+    {/* SEO 최적화를 위한 메타 태그 */}
+    <title>대전 문화공원 수자인 - 입지환경</title>
+    <meta
+      name="description"
+      content="대전 문화공원 수자인의 입지환경을 소개합니다. 트램 2호선과 서대전역 KTX 등 뛰어난 교통망, 대전 문화공원과 보문산이 어우러진 자연환경, 교육·생활·문화 인프라까지 완비된 중심입지를 만나보세요."
+    />
+    <meta
+      name="keywords"
+      content="대전 문화공원 수자인, 대전 수자인 입지환경, 트램2호선, 대전 문화공원, 보문산, 중구 아파트"
+    />
+    <link rel="canonical" href="https://www.vaaclubs.com/LocationEnvironment/intro" />
+  
+    {/* Open Graph - 소셜 미디어 공유 최적화 */}
+    <meta property="og:title" content="대전 문화공원 수자인 - 입지환경" />
+    <meta
+      property="og:description"
+      content="트램·KTX·문화공원·보문산·생활인프라까지 모두 갖춘 대전 문화공원 수자인의 입지환경."
+    />
+    <meta property="og:image" content="https://www.vaaclubs.com/Main1.png" />
+    <meta property="og:url" content="https://www.vaaclubs.com/LocationEnvironment/intro" />
+    <meta property="og:site_name" content="대전 문화공원 수자인" />
+  
+    {/* Twitter 카드 설정 */}
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="대전 문화공원 수자인 - 입지환경" />
+    <meta
+      name="twitter:description"
+      content="트램2호선·서대전역·문화공원·보문산이 어우러진 완벽한 입지환경."
+    />
+    <meta name="twitter:image" content="https://www.vaaclubs.com/Main1.png" />
+    <meta name="twitter:url" content="https://www.vaaclubs.com/LocationEnvironment/intro" />
+  
+    {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
+    <script type="application/ld+json">
+      {`
+        {
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          "name": "대전 문화공원 수자인 - 입지환경",
+          "description": "대전 문화공원 수자인의 입지환경 — 트램 2호선, KTX, 문화공원, 보문산, 생활 인프라 완비.",
+          "url": "https://www.vaaclubs.com/LocationEnvironment/intro"
+        }
+      `}
+    </script>
+  </Helmet>
+  
+  <Header isChanged={isScroll} />
+  <FixIcon />
+  
+  <Bener title="입지환경" />
+  <MenuBar contents={menuContents} />
+  
+  {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
+  <h1 className={styles.screenReaderOnly}>대전 문화공원 수자인 - 입지환경</h1>
+  <p className={styles.screenReaderOnly}>
+    대전 문화공원 수자인은 트램 2호선과 서대전역 KTX로 이어지는 교통망과
+    문화공원·보문산을 품은 자연환경, 그리고 교육·쇼핑·문화 인프라가 완비된
+    대전 중심 입지에 위치한 프리미엄 단지입니다.
+  </p>
+  
+  <div className={styles.textBox}>
+    <div>대전 중심에서 누리는 완벽한 입지</div>
+    <div>문화공원을 품은 프리미엄 라이프</div>
+    <div>트램과 자연이 만나는 수자인의 가치</div>
+  </div>
+  
       <Helmet>
         {/* 기본 문자셋 및 모바일 최적화를 위한 meta 태그 */}
         <meta charSet="utf-8" />

@@ -17,10 +17,10 @@ import Ready from "../../components/Ready/Ready";
 
 const ComplexGuide1 = () => {
   const menuContents = [
-    { title: "청약제도변경", url: "/SalesInfo/SubscriptionGuide" },
-    // { title: "인터넷 청약", url: "/SalesInfo/guide" },
+    // { title: "청약제도변경", url: "/SalesInfo/SubscriptionGuide" },
+    { title: "공급안내", url: "/SalesInfo/guide" },
     { title: "모집공고안내", url: "/SalesInfo/announcement" },
-    // { title: "인지세납부안내", url: "/SalesInfo/stampTax" },
+    { title: "서류접수안내", url: "/SalesInfo/stampTax" },
   ];
 
   const [isScroll, setIsScroll] = useState(false);
@@ -72,10 +72,7 @@ const ComplexGuide1 = () => {
       <Helmet>
         {/* 기본 문자셋 및 모바일 최적화를 위한 meta 태그 */}
         <meta charSet="utf-8" />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1, maximum-scale=1"
-        />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
         <meta name="theme-color" content="#ffffff" />
         <meta name="robots" content="index, follow" />
 
@@ -83,95 +80,66 @@ const ComplexGuide1 = () => {
         <title>대전 문화공원 수자인 - 모집공고안내</title>
         <meta
           name="description"
-          content="대전 문화공원 수자인의 모집 공고는 분양 전 단계에서 중요한 안내문입니다. 이 페이지에서는 모집 공고에 포함된 중요한 날짜, 자격 조건, 필요한 서류 등을 명확하게 안내하여 예비 청약자들이 혼동 없이 청약을 준비할 수 있도록 지원합니다. 모집 공고를 통해 필수 정보들을 빠짐없이 체크하세요.
-
-"
+          content="대전 문화공원 수자인 입주자모집공고의 핵심 정보를 한눈에 확인하세요. 공고일, 청약 자격, 특별공급/1·2순위 일정, 제출서류 및 유의사항을 명확히 안내합니다."
         />
         <meta
           name="keywords"
-          content="대전 문화공원 수자인, 대전 문화공원 수자인, 대전 문화공원 수자인모델하우스"
+          content="대전 문화공원 수자인, 입주자모집공고, 청약 일정, 특별공급, 1순위 2순위, 제출서류"
         />
-        <link
-          rel="canonical"
-          href="https://www.vaaclubs.com/SalesInfo/announcement"
-        />
+        <link rel="canonical" href="https://www.vaaclubs.com/SalesInfo/announcement" />
 
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
-        <meta
-          property="og:title"
-          content="대전 문화공원 수자인 - 모집공고안내"
-        />
+        <meta property="og:title" content="대전 문화공원 수자인 - 모집공고안내" />
         <meta
           property="og:description"
-          content="대전 문화공원 수자인의 모집 공고는 분양 전 단계에서 중요한 안내문입니다. 이 페이지에서는 모집 공고에 포함된 중요한 날짜, 자격 조건, 필요한 서류 등을 명확하게 안내하여 예비 청약자들이 혼동 없이 청약을 준비할 수 있도록 지원합니다. 모집 공고를 통해 필수 정보들을 빠짐없이 체크하세요.
-
-"
+          content="청약 자격, 일정, 제출서류 등 대전 문화공원 수자인 입주자모집공고의 필수 정보를 확인하세요."
         />
-        <meta
-          property="og:image"
-          content="https://www.vaaclubs.com/Main1.png"
-        />
-        <meta
-          property="og:url"
-          content="https://www.vaaclubs.com/SalesInfo/announcement"
-        />
+        <meta property="og:image" content="https://www.vaaclubs.com/Main1.png" />
+        <meta property="og:url" content="https://www.vaaclubs.com/SalesInfo/announcement" />
         <meta property="og:site_name" content="대전 문화공원 수자인" />
 
         {/* Twitter 카드 설정 */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="대전 문화공원 수자인 - 모집공고안내"
-        />
+        <meta name="twitter:title" content="대전 문화공원 수자인 - 모집공고안내" />
         <meta
           name="twitter:description"
-          content="대전 문화공원 수자인의 모집 공고는 분양 전 단계에서 중요한 안내문입니다. 이 페이지에서는 모집 공고에 포함된 중요한 날짜, 자격 조건, 필요한 서류 등을 명확하게 안내하여 예비 청약자들이 혼동 없이 청약을 준비할 수 있도록 지원합니다. 모집 공고를 통해 필수 정보들을 빠짐없이 체크하세요.
-
-"
+          content="입주자모집공고의 일정·자격·서류를 한 번에 확인하세요."
         />
-        <meta
-          name="twitter:image"
-          content="https://www.vaaclubs.com/Main1.png"
-        />
-        <meta
-          name="twitter:url"
-          content="https://www.vaaclubs.com/SalesInfo/announcement"
-        />
+        <meta name="twitter:image" content="https://www.vaaclubs.com/Main1.png" />
+        <meta name="twitter:url" content="https://www.vaaclubs.com/SalesInfo/announcement" />
 
         {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
         <script type="application/ld+json">
           {`
-                                        {
-                                            "@context": "https://schema.org",
-                                            "@type": "WebPage",
-                                            "name": "대전 문화공원 수자인 - 모집공고안내",
-                                            "description": "대전 문화공원 수자인의 모집 공고는 분양 전 단계에서 중요한 안내문입니다. 이 페이지에서는 모집 공고에 포함된 중요한 날짜, 자격 조건, 필요한 서류 등을 명확하게 안내하여 예비 청약자들이 혼동 없이 청약을 준비할 수 있도록 지원합니다. 모집 공고를 통해 필수 정보들을 빠짐없이 체크하세요.
-
-",
-                                            "url": "https://www.vaaclubs.com/SalesInfo/announcement"
-                                        }
-                                        `}
+            {
+              "@context": "https://schema.org",
+              "@type": "WebPage",
+              "name": "대전 문화공원 수자인 - 모집공고안내",
+              "description": "대전 문화공원 수자인 입주자모집공고의 일정, 청약 자격, 제출서류 및 유의사항 안내.",
+              "url": "https://www.vaaclubs.com/SalesInfo/announcement"
+            }
+          `}
         </script>
       </Helmet>
+
       <Header isChanged={isScroll} />
       <FixIcon />
       <Bener title="모집공고안내" />
       <MenuBar contents={menuContents} />
+
       {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
-      <h1 className={styles.screenReaderOnly}>
-        대전 문화공원 수자인- 모집공고안내
-      </h1>
+      <h1 className={styles.screenReaderOnly}>대전 문화공원 수자인 - 모집공고안내</h1>
       <p className={styles.screenReaderOnly}>
-        대전 문화공원 수자인모집 공고는 분양 전 단계에서 중요한
-        안내문입니다. 이 페이지에서는 모집 공고에 포함된 중요한 날짜, 자격 조건,
-        필요한 서류 등을 명확하게 안내하여 예비 청약자들이 혼동 없이 청약을
-        준비할 수 있도록 지원합니다. 모집 공고를 통해 필수 정보들을 빠짐없이
-        체크하세요.
+        대전 문화공원 수자인의 입주자모집공고는 청약 준비에 필요한 핵심 내용을
+        제공합니다. 공고일, 특별공급 및 1·2순위 청약 일정, 청약 자격, 제출서류,
+        당첨자 서류 제출 유의사항 등을 명확히 안내합니다.
       </p>
+
       <div className={styles.textBox}>
-        <div>입주자 모집공고안내를 확인하세요</div>
-        <div>대전 문화공원 수자인</div>
+        <div>입주자모집공고 핵심 정보 확인</div>
+        <div>일정·자격·서류를 한눈에, 대전 문화공원 수자인</div>
       </div>
+
       {/* <img
         className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
         src={page1}

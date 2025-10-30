@@ -9,7 +9,7 @@ import FixIcon from "../../components/FixIcon/FixIcon";
 import { Helmet } from "react-helmet-async";
 
 
-// import page1 from "../../assets/ComplexGuide/ComplexGuide1/page1.webp";
+import page1 from "../../assets/ComplexGuide/ComplexGuide1/complex.jpg";
 
 import Ready from "../../components/Ready/Ready";
 
@@ -52,108 +52,87 @@ const ComplexGuide1 = () => {
 	return (
 		<div className={styles.container}>
 <Helmet>
-		{/* 기본 문자셋 및 모바일 최적화를 위한 meta 태그 */}
-		<meta charSet="utf-8" />
-		<meta
-		  name="viewport"
-		  content="width=device-width, initial-scale=1, maximum-scale=1"
-		/>
-		<meta name="theme-color" content="#ffffff" />
-		<meta name="robots" content="index, follow" />
+  {/* 기본 문자셋 및 모바일 최적화를 위한 meta 태그 */}
+  <meta charSet="utf-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1"
+  />
+  <meta name="theme-color" content="#ffffff" />
+  <meta name="robots" content="index, follow" />
 
-		{/* SEO 최적화를 위한 메타 태그 */}
-		<title>대전 문화공원 수자인 - 단지배치도</title>
-		<meta
-		  name="description"
-		  content="대전 문화공원 수자인의 단지 배치도를 통해 각 동의 위치와 편의시설의 배치를 확인하세요. 효율적인 동선 설계와 조경 공간, 입주민의 생활 편의를 고려한 배치를 상세히 안내합니다.
-"
-		/>
-  		<meta name="keywords" content="대전 문화공원 수자인, 대전 문화공원 수자인, 대전 문화공원 수자인모델하우스" />	
-		<link
-		  rel="canonical"
-		  href="https://www.vaaclubs.com/ComplexGuide/intro"
-		/>
+  {/* SEO 최적화를 위한 메타 태그 */}
+  <title>대전 문화공원 수자인 - 단지배치도</title>
+  <meta
+    name="description"
+    content="대전 문화공원 수자인의 단지 배치도를 통해 동·호수 구성, 커뮤니티 위치, 조경 및 보행 동선을 확인하세요. 효율적인 동선 설계와 공원 연계 조경으로 생활 편의를 높인 프리미엄 단지 구성을 상세히 안내합니다."
+  />
+  <meta
+    name="keywords"
+    content="대전 문화공원 수자인, 단지배치도, 동호수배치, 수자인 단지안내, 대전 아파트 분양"
+  />
+  <link rel="canonical" href="https://www.vaaclubs.com/ComplexGuide/intro" />
 
-		{/* Open Graph - 소셜 미디어 공유 최적화 */}
-		<meta
-		  property="og:title"
-		  content="대전 문화공원 수자인 - 단지배치도"
-		/>
-		<meta
-		  property="og:description"
-		  content="대전 문화공원 수자인의 단지 배치도를 통해 각 동의 위치와 편의시설의 배치를 확인하세요. 효율적인 동선 설계와 조경 공간, 입주민의 생활 편의를 고려한 배치를 상세히 안내합니다.
-"
-		/>
-		<meta
-		  property="og:image"
-		  content="https://www.vaaclubs.com/Main1.png"
-		/>
-		<meta
-		  property="og:url"
-		  content="https://www.vaaclubs.com/ComplexGuide/intro"
-		/>
-		<meta property="og:site_name" content="대전 문화공원 수자인" />
+  {/* Open Graph - 소셜 미디어 공유 최적화 */}
+  <meta property="og:title" content="대전 문화공원 수자인 - 단지배치도" />
+  <meta
+    property="og:description"
+    content="대전 문화공원 수자인의 단지 배치도에서 동·호수 구성과 커뮤니티, 조경, 주차 및 보행 동선을 한눈에 확인하세요."
+  />
+  <meta property="og:image" content="https://www.vaaclubs.com/Main1.png" />
+  <meta property="og:url" content="https://www.vaaclubs.com/ComplexGuide/intro" />
+  <meta property="og:site_name" content="대전 문화공원 수자인" />
 
-		{/* Twitter 카드 설정 */}
-		<meta name="twitter:card" content="summary_large_image" />
-		<meta
-		  name="twitter:title"
-		  content="대전 문화공원 수자인 - 단지배치도"
-		/>
-		<meta
-		  name="twitter:description"
-		  content="대전 문화공원 수자인의 단지 배치도를 통해 각 동의 위치와 편의시설의 배치를 확인하세요. 효율적인 동선 설계와 조경 공간, 입주민의 생활 편의를 고려한 배치를 상세히 안내합니다.
-"
-		/>
-		<meta
-		  name="twitter:image"
-		  content="https://www.vaaclubs.com/Main1.png"
-		/>
-		<meta
-		  name="twitter:url"
-		  content="https://www.vaaclubs.com/ComplexGuide/intro"
-		/>
+  {/* Twitter 카드 설정 */}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="대전 문화공원 수자인 - 단지배치도" />
+  <meta
+    name="twitter:description"
+    content="대전 문화공원 수자인의 단지 배치도와 커뮤니티 배치를 확인하세요."
+  />
+  <meta name="twitter:image" content="https://www.vaaclubs.com/Main1.png" />
+  <meta name="twitter:url" content="https://www.vaaclubs.com/ComplexGuide/intro" />
 
-		{/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
-		<script type="application/ld+json">
-		  {`
-										{
-											"@context": "https://schema.org",
-											"@type": "WebPage",
-											"name": "대전 문화공원 수자인 - 단지배치도",
-											"description": "대전 문화공원 수자인의 단지 배치도를 통해 각 동의 위치와 편의시설의 배치를 확인하세요. 효율적인 동선 설계와 조경 공간, 입주민의 생활 편의를 고려한 배치를 상세히 안내합니다.
-",
-											"url": "https://www.vaaclubs.com/ComplexGuide/intro"
-										}
-										`}
-		</script>
-	  </Helmet> 
+  {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
+  <script type="application/ld+json">
+    {`
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "대전 문화공원 수자인 - 단지배치도",
+        "description": "대전 문화공원 수자인의 단지 배치도를 통해 동·호수 구성, 커뮤니티 위치, 조경 및 보행 동선을 확인하세요.",
+        "url": "https://www.vaaclubs.com/ComplexGuide/intro"
+      }
+    `}
+  </script>
+</Helmet>
 
-			<Header isChanged={isScroll} />
-			<FixIcon />
-			<Bener title="단지안내" />
-			<MenuBar contents={menuContents} />
-			{/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
-            <h1 className={styles.screenReaderOnly}>대전 문화공원 수자인 - 단지배치도</h1>
-			<p className={styles.screenReaderOnly}>단지 배치도 페이지는 대전 문화공원 수자인의 전체 단지 구성도를 제공합니다. 아파트 단지 내 세대 배치, 공용 시설, 주차 공간 등을 시각적으로 보여주어 입주자들이 공간 배치에 대해 명확하게 이해할 수 있도록 돕습니다. 이 배치도를 통해 단지 내 생활을 더 쉽게 계획할 수 있습니다.
-			</p>
+<Header isChanged={isScroll} />
+<FixIcon />
+<Bener title="단지안내" />
+<MenuBar contents={menuContents} />
 
+{/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
+<h1 className={styles.screenReaderOnly}>대전 문화공원 수자인 - 단지배치도</h1>
+<p className={styles.screenReaderOnly}>
+  단지 배치도 페이지는 대전 문화공원 수자인의 동·호수 배치, 커뮤니티 시설,
+  조경 및 주차 동선을 시각적으로 제공하여 입주 예정자에게 명확한 단지 이해를 돕습니다.
+</p>
 
+<div className={styles.textBox}>
+  <div>문화공원을 품은 프리미엄 단지 설계</div>
+  <div>효율적인 동선과 조경으로 완성된 수자인 라이프</div>
+</div>
 
-			<div className={styles.textBox}>
-				<div>대전 문화공원 수자인가 눈부신 가치 위에</div>
-				<div>새로운 자부심으로 찾아옵니다.</div>
-			</div>
 
 			{/* 이미지에 애니메이션 효과 추가 */}
-			{/* <img
+			<img
 				className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
 				src={page1}
 				alt="대전 문화공원 수자인 단지배치도-image1"
 				onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
-			/> */}
+			/>
 
-			<Ready/>
 			
 
 

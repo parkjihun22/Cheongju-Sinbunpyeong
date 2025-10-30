@@ -64,9 +64,9 @@ const FloorPlan6 = () => {
 			<MenuBar contents={menuContents} />
 
 			<div className={styles.textBox}>
-				<div>청주의 눈부신 가치 위에</div>
-				<div>풍경채의 새로운 자부심으로 찾아옵니다.</div>
-			</div>
+  <div>실용성과 개방감을 높인 혁신 설계</div>
+  <div>일상을 편안하게 만드는 수자인의 평면</div>
+</div>
 
 			{/* 이미지에 애니메이션 효과 추가 */}
 			{/*<img

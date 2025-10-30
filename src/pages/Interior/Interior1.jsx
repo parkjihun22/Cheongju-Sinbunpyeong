@@ -11,7 +11,7 @@ import HelmetCOM from "../../components/HelmetCOM/HelmetCOM";
 import { Helmet } from "react-helmet-async";
 
 
-// import page1 from "../../assets/Interior/Interior1/page1.jpg";
+import page1 from "../../assets/Interior/Interior1/interior01.jpg";
 import Ready from "../../components/Ready/Ready";
 
 const Interior1 = () => {
@@ -138,7 +138,7 @@ const Interior1 = () => {
       <MenuBar contents={menuContents} />
       {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
       <h1 className={styles.screenReaderOnly}>
-        대전 문화공원 수자인 - 59A 인테리어
+        대전 문화공원 수자인 - 인테리어
       </h1>
       <p className={styles.screenReaderOnly}>
         인테리어 페이지에서는 대전 문화공원 수자인의 고급 인테리어 디자인을
@@ -153,13 +153,13 @@ const Interior1 = () => {
       </div>
 
       {/* 이미지에 애니메이션 효과 추가 */}
-      {/* <img
+      <img
 				className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
 				src={page1}
-				alt="대전 문화공원 수자인 59A 인테리어 안내 이미지"
+				alt="대전 문화공원 수자인 인테리어 안내 이미지"
 				onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
-			/> */}
-      <Ready/>
+			/>
+
 
       <div className={styles.commonBox2}>
         <div className={styles.notice}>

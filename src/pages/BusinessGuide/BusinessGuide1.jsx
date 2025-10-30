@@ -15,13 +15,15 @@ import tableImage from "../../assets/BusinessGuide/BusinessGuide1/tableImage.jpg
 
 
 const projectData = [
-	{ label: '사업명', value: '대전 문화공원 수자인 1BL' },
-	{ label: '사업위치', value: '충청북도 청주시 서원구 장성동 204번지 일원' },
-	{ label: '대지면적', value: '62,267.00㎡(18,835.76평)' },
-	{ label: '조경면적', value: '26,230.48㎡(7,934.72평) / 조경률 42.13%' },
-	{ label: '건축규모', value: '지하 2층 ~ 지상 29층 12개동, 총 1,448세대' },
-	{ label: '세대수', value: '민간임대 : 59㎡ 793세대 일반분양 : 75㎡·84㎡·112㎡ 655세대' },
-];
+	{ label: '사업명', value: '대전 문화공원 수자인' },
+	{ label: '사업위치', value: '대전광역시 중구 문화동 47번지 일원' },
+	{ label: '대지면적', value: '30,400㎡(약 9,200평)' },
+	{ label: '건축규모', value: '지하 3층 ~ 지상 11~16층, 11개동' },
+	{ label: '세대수', value: '총 509세대 (전용 84㎡ 419세대 / 전용 126㎡ 90세대)' },
+	{ label: '조경면적', value: '약 15만7천㎡ 규모의 문화공원 인접 / 민간공원 특례사업' },
+	{ label: '입주예정', value: '2027년 11월 예정' },
+  ];
+  
 
 const BusinessGuide1 = () => {
 	const menuContents = [

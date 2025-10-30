@@ -40,17 +40,17 @@ const Bener = ({ title }) => {
 export default Bener;
 
 const contents = (text, isLoaded) => {
-    if (text === '풍경채' || text === '홍보영상' || text === '체크포인트'| text === '당첨자서류안내') {
+    if (text === '수자인' || text === '홍보영상' || text === '체크포인트' || text === '당첨자서류안내') {
         return (
             <>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    지친 하루를 마치고 가장 나에 가까운 본연의 모습으로 돌아와 누리는 프리미엄입니다.
+                    도심 속에서 자연을 품은 힐링 라이프,
                 </div>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    청주의 중심 
+                    공원과 함께하는 프리미엄 주거의 기준
                 </div>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    NO.1 브랜드 대전 문화공원 수자인와 함께합니다.
+                    NO.1 브랜드, 대전 문화공원 수자인과 함께하세요.
                 </div>
             </>
         );
@@ -58,13 +58,13 @@ const contents = (text, isLoaded) => {
         return (
             <>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    풍경채가 선택한 새도시!
+                    대전의 중심, 문화동에 새로운 프리미엄 라이프가 시작됩니다.
                 </div>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    청주의 새로운 주거 랜드마크
+                    공원과 함께하는 509세대의 도심 속 힐링타운
                 </div>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    가장 높은 브랜드의 첫 시작
+                    자연·도심·브랜드가 어우러진 특별한 가치
                 </div>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
                     대전 문화공원 수자인
@@ -75,10 +75,13 @@ const contents = (text, isLoaded) => {
         return (
             <>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    수준 높은 생활, 첨단신도시내 착한 브랜드 아파트
+                    대전 중심에서 누리는 숲세권 프리미엄
                 </div>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    기대하던 모든 프리미엄이 대전 문화공원 수자인에서 펼쳐집니다
+                    15만㎡ 규모 문화공원과 트램, 광역철도 등 미래가치의 중심
+                </div>
+                <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
+                    대전 문화공원 수자인에서 자연과 도심의 완벽한 조화를 경험하세요.
                 </div>
             </>
         );
@@ -86,13 +89,13 @@ const contents = (text, isLoaded) => {
         return (
             <>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    주거의 품격과 가치를 높이는 특화설계
+                    자연과 어우러진 프리미엄 단지 설계
                 </div>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    편리한 생활을 위한 최적의 공간설계
+                    4Bay 혁신평면과 쾌적한 조경, 품격 있는 커뮤니티
                 </div>
                 <div className={`${styles.text} ${isLoaded ? styles.showText : ''}`}>
-                    소수에게만 허락된대전 문화공원 수자인, 처음이자 마지막으로 청주의 핵심중심에 찾아옵니다
+                    오직 509세대만 누리는 도심 속 힐링 라이프, 대전 문화공원 수자인
                 </div>
             </>
         );

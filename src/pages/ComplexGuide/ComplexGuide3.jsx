@@ -9,7 +9,7 @@ import FixIcon from "../../components/FixIcon/FixIcon";
 import { Helmet } from "react-helmet-async";
 
 
-// import page1 from "../../assets/ComplexGuide/ComplexGuide3/page1.jpg";
+import page1 from "../../assets/ComplexGuide/ComplexGuide3/community.jpg";
 
 import Ready from "../../components/Ready/Ready";
 
@@ -50,113 +50,89 @@ const ComplexGuide3 = () => {
 
   return (
     <div className={styles.container}>
-      <Helmet>
-        {/* 기본 문자셋 및 모바일 최적화를 위한 meta 태그 */}
-        <meta charSet="utf-8" />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1, maximum-scale=1"
-        />
-        <meta name="theme-color" content="#ffffff" />
-        <meta name="robots" content="index, follow" />
+<Helmet>
+  {/* 기본 문자셋 및 모바일 최적화를 위한 meta 태그 */}
+  <meta charSet="utf-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1"
+  />
+  <meta name="theme-color" content="#ffffff" />
+  <meta name="robots" content="index, follow" />
 
-        {/* SEO 최적화를 위한 메타 태그 */}
-        <title>대전 문화공원 수자인 - 커뮤니티</title>
-        <meta
-          name="description"
-          content="대전 문화공원 수자인의 커뮤니티 시설을 소개합니다. 피트니스 센터, 독서실, 카페 등 다양한 편의시설이 마련되어 있어 입주민의 생활 품격을 높이고, 편리함을 제공합니다.
-"
-        />
-        <meta name="keywords" content="대전 문화공원 수자인, 대전 문화공원 수자인, 대전 문화공원 수자인모델하우스" />
-        <link
-          rel="canonical"
-          href="https://www.vaaclubs.com/ComplexGuide/community"
-        />
+  {/* SEO 최적화를 위한 메타 태그 */}
+  <title>대전 문화공원 수자인 - 커뮤니티</title>
+  <meta
+    name="description"
+    content="대전 문화공원 수자인의 커뮤니티 시설을 소개합니다. 피트니스, GX룸, 실내골프, 독서실·스터디룸, 키즈라운지, 게스트하우스, 주민카페 등 다양한 시설로 일상에 품격을 더합니다."
+  />
+  <meta
+    name="keywords"
+    content="대전 문화공원 수자인, 수자인 커뮤니티, 피트니스, 독서실, 키즈라운지, 주민카페"
+  />
+  <link rel="canonical" href="https://www.vaaclubs.com/ComplexGuide/community" />
 
-        {/* Open Graph - 소셜 미디어 공유 최적화 */}
-        <meta
-          property="og:title"
-          content="대전 문화공원 수자인 - 커뮤니티"
-        />
-        <meta
-          property="og:description"
-          content="대전 문화공원 수자인의 커뮤니티 시설을 소개합니다. 피트니스 센터, 독서실, 카페 등 다양한 편의시설이 마련되어 있어 입주민의 생활 품격을 높이고, 편리함을 제공합니다.
-"
-        />
-        <meta
-          property="og:image"
-          content="https://www.vaaclubs.com/Main1.png"
-        />
-        <meta
-          property="og:url"
-          content="https://www.vaaclubs.com/ComplexGuide/community"
-        />
-        <meta property="og:site_name" content="대전 문화공원 수자인" />
+  {/* Open Graph - 소셜 미디어 공유 최적화 */}
+  <meta property="og:title" content="대전 문화공원 수자인 - 커뮤니티" />
+  <meta
+    property="og:description"
+    content="피트니스, GX룸, 실내골프, 독서실·스터디룸, 키즈라운지, 주민카페 등 대전 문화공원 수자인의 다양한 커뮤니티 시설을 확인하세요."
+  />
+  <meta property="og:image" content="https://www.vaaclubs.com/Main1.png" />
+  <meta property="og:url" content="https://www.vaaclubs.com/ComplexGuide/community" />
+  <meta property="og:site_name" content="대전 문화공원 수자인" />
 
-        {/* Twitter 카드 설정 */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="대전 문화공원 수자인 - 커뮤니티"
-        />
-        <meta
-          name="twitter:description"
-          content="대전 문화공원 수자인의 커뮤니티 시설을 소개합니다. 피트니스 센터, 독서실, 카페 등 다양한 편의시설이 마련되어 있어 입주민의 생활 품격을 높이고, 편리함을 제공합니다.
-"
-        />
-        <meta
-          name="twitter:image"
-          content="https://www.vaaclubs.com/Main1.png"
-        />
-        <meta
-          name="twitter:url"
-          content="https://www.vaaclubs.com/ComplexGuide/community"
-        />
+  {/* Twitter 카드 설정 */}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="대전 문화공원 수자인 - 커뮤니티" />
+  <meta
+    name="twitter:description"
+    content="대전 문화공원 수자인의 프리미엄 커뮤니티: 피트니스·실내골프·독서실·키즈라운지·주민카페."
+  />
+  <meta name="twitter:image" content="https://www.vaaclubs.com/Main1.png" />
+  <meta name="twitter:url" content="https://www.vaaclubs.com/ComplexGuide/community" />
 
-        {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
-        <script type="application/ld+json">
-          {`
-										{
-											"@context": "https://schema.org",
-											"@type": "WebPage",
-											"name": "대전 문화공원 수자인 - 커뮤니티",
-											"description": "대전 문화공원 수자인의 커뮤니티 시설을 소개합니다. 피트니스 센터, 독서실, 카페 등 다양한 편의시설이 마련되어 있어 입주민의 생활 품격을 높이고, 편리함을 제공합니다.
-",
-											"url": "https://www.vaaclubs.com/ComplexGuide/community"
-										}
-										`}
-        </script>
-      </Helmet>
+  {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
+  <script type="application/ld+json">
+    {`
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "대전 문화공원 수자인 - 커뮤니티",
+        "description": "대전 문화공원 수자인의 커뮤니티 시설: 피트니스, GX룸, 실내골프, 독서실·스터디룸, 키즈라운지, 주민카페 등.",
+        "url": "https://www.vaaclubs.com/ComplexGuide/community"
+      }
+    `}
+  </script>
+</Helmet>
 
-      <Header isChanged={isScroll} />
-      <FixIcon />
-      <Bener title="단지안내" />
-      <MenuBar contents={menuContents} />
-      {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
-      <h1 className={styles.screenReaderOnly}>
-        대전 문화공원 수자인 - 커뮤니티
-      </h1>
-      <p className={styles.screenReaderOnly}>
-        대전 문화공원 수자인의 커뮤니티 페이지에서는 단지 내 다양한
-        커뮤니티 시설을 소개합니다. 헬스장, 독서실, 카페 등 주민들의 편리한
-        생활을 위한 다양한 시설들이 준비되어 있습니다. 이러한 시설들이
-        입주민들의 삶의 질을 높이고, 더 나은 공동체 생활을 만들어주는 역할을
-        합니다.
-      </p>
+<Header isChanged={isScroll} />
+<FixIcon />
+<Bener title="단지안내" />
+<MenuBar contents={menuContents} />
 
-      <div className={styles.textBox}>
-        <div>대전 문화공원 수자인가 눈부신 가치 위에</div>
-        <div>새로운 자부심으로 찾아옵니다.</div>
-      </div>
+{/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
+<h1 className={styles.screenReaderOnly}>대전 문화공원 수자인 - 커뮤니티</h1>
+<p className={styles.screenReaderOnly}>
+  대전 문화공원 수자인의 커뮤니티 페이지에서는 피트니스·GX룸·실내골프,
+  독서실·스터디룸, 키즈라운지, 주민카페, 게스트하우스 등 다양한 생활 편의
+  시설을 소개합니다. 입주민의 일상에 품격과 여유를 더하는 공간입니다.
+</p>
+
+<div className={styles.textBox}>
+  <div>브랜드의 품격을 담은 커뮤니티</div>
+  <div>일상에 여유를 더하는 수자인 라이프</div>
+</div>
+
 
       {/* 이미지에 애니메이션 효과 추가 */}
-      {/* <img
+      <img
 				className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
 				src={page1}
 				alt="대전 문화공원 수자인 커뮤니티 안내 -image1"
 				onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
-			/> */}
-    <Ready/>
+			/>
+
 
       <Footer />
     </div>

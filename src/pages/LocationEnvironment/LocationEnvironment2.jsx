@@ -10,7 +10,7 @@ import FixIcon from "../../components/FixIcon/FixIcon";
 import Ready from "../../components/Ready/Ready";
 import HelmetCOM from "../../components/HelmetCOM/HelmetCOM";
 import { Helmet } from "react-helmet-async";
-import page1 from "../../assets/LocationEnvironment/LocationEnvironment2/page1.jpg";
+import page1 from "../../assets/LocationEnvironment/LocationEnvironment2/premium.jpg";
 
 const LocationEnvironment1 = () => {
   const menuContents = [
@@ -44,111 +44,77 @@ const LocationEnvironment1 = () => {
 
   return (
     <div className={styles.container}>
-      <Helmet>
-        {/* 기본 문자셋 및 모바일 최적화를 위한 meta 태그 */}
-        <meta charSet="utf-8" />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1, maximum-scale=1"
-        />
-        <meta name="theme-color" content="#ffffff" />
-        <meta name="robots" content="index, follow" />
+<Helmet>
+  {/* 기본 문자셋 및 모바일 최적화를 위한 meta 태그 */}
+  <meta charSet="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <meta name="theme-color" content="#ffffff" />
+  <meta name="robots" content="index, follow" />
 
-        {/* SEO 최적화를 위한 메타 태그 */}
-        <title>대전 문화공원 수자인 - 프리미엄</title>
-        <meta
-          name="description"
-          content="대전 문화공원 수자인만의 차별화된 프리미엄을 만나보세요. 고급스러운 디자인, 첨단 기술이 결합된 설계, 입주민을 위한 특별한 혜택 등을 통해 풍경채만의 독보적인 가치를 제공합니다.
+  {/* SEO 최적화를 위한 메타 태그 */}
+  <title>대전 문화공원 수자인 - 프리미엄</title>
+  <meta
+    name="description"
+    content="대전 문화공원 수자인만의 차별화된 프리미엄을 소개합니다. 숲세권 입지, 4Bay 혁신 설계, 스마트홈, 품격 있는 커뮤니티와 브랜드 서비스로 일상의 가치를 높입니다."
+  />
+  <meta
+    name="keywords"
+    content="대전 문화공원 수자인, 수자인 프리미엄, 숲세권 아파트, 스마트홈, 커뮤니티"
+  />
+  <link rel="canonical" href="https://www.vaaclubs.com/LocationEnvironment/primium" />
 
-"
-        />
-        <meta
-          name="keywords"
-          content="대전 문화공원 수자인, 대전 문화공원 수자인, 대전 문화공원 수자인모델하우스"
-        />
-        <link
-          rel="canonical"
-          href="https://www.vaaclubs.com/LocationEnvironment/primium"
-        />
+  {/* Open Graph - 소셜 미디어 공유 최적화 */}
+  <meta property="og:title" content="대전 문화공원 수자인 - 프리미엄" />
+  <meta
+    property="og:description"
+    content="숲세권 입지와 4Bay 혁신 설계, 스마트홈·커뮤니티로 완성한 수자인의 프리미엄."
+  />
+  <meta property="og:image" content="https://www.vaaclubs.com/Main1.png" />
+  <meta property="og:url" content="https://www.vaaclubs.com/LocationEnvironment/primium" />
+  <meta property="og:site_name" content="대전 문화공원 수자인" />
 
-        {/* Open Graph - 소셜 미디어 공유 최적화 */}
-        <meta
-          property="og:title"
-          content="대전 문화공원 수자인 - 프리미엄"
-        />
-        <meta
-          property="og:description"
-          content="대전 문화공원 수자인만의 차별화된 프리미엄을 만나보세요. 고급스러운 디자인, 첨단 기술이 결합된 설계, 입주민을 위한 특별한 혜택 등을 통해 풍경채만의 독보적인 가치를 제공합니다.
+  {/* Twitter 카드 설정 */}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="대전 문화공원 수자인 - 프리미엄" />
+  <meta
+    name="twitter:description"
+    content="자연·설계·커뮤니티·브랜드가 어우러진 대전 문화공원 수자인의 프리미엄."
+  />
+  <meta name="twitter:image" content="https://www.vaaclubs.com/Main1.png" />
+  <meta name="twitter:url" content="https://www.vaaclubs.com/LocationEnvironment/primium" />
 
-"
-        />
-        <meta
-          property="og:image"
-          content="https://www.vaaclubs.com/Main1.png"
-        />
-        <meta
-          property="og:url"
-          content="https://www.vaaclubs.com/LocationEnvironment/primium"
-        />
-        <meta property="og:site_name" content="대전 문화공원 수자인" />
+  {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
+  <script type="application/ld+json">
+    {`
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "대전 문화공원 수자인 - 프리미엄",
+        "description": "대전 문화공원 수자인의 프리미엄: 숲세권 입지, 4Bay 혁신 설계, 스마트홈, 커뮤니티, 브랜드 서비스.",
+        "url": "https://www.vaaclubs.com/LocationEnvironment/primium"
+      }
+    `}
+  </script>
+</Helmet>
 
-        {/* Twitter 카드 설정 */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="대전 문화공원 수자인 - 프리미엄"
-        />
-        <meta
-          name="twitter:description"
-          content="대전 문화공원 수자인만의 차별화된 프리미엄을 만나보세요. 고급스러운 디자인, 첨단 기술이 결합된 설계, 입주민을 위한 특별한 혜택 등을 통해 풍경채만의 독보적인 가치를 제공합니다.
+<Header isChanged={isScroll} />
+<FixIcon />
 
-"
-        />
-        <meta
-          name="twitter:image"
-          content="https://www.vaaclubs.com/Main1.png"
-        />
-        <meta
-          name="twitter:url"
-          content="https://www.vaaclubs.com/LocationEnvironment/primium"
-        />
+<Bener title="프리미엄" />
 
-        {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
-        <script type="application/ld+json">
-          {`
-										{
-											"@context": "https://schema.org",
-											"@type": "WebPage",
-											"name": "대전 문화공원 수자인 - 프리미엄",
-											"description": "대전 문화공원 수자인만의 차별화된 프리미엄을 만나보세요. 고급스러운 디자인, 첨단 기술이 결합된 설계, 입주민을 위한 특별한 혜택 등을 통해 풍경채만의 독보적인 가치를 제공합니다.
+<MenuBar contents={menuContents} />
+{/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
+<h1 className={styles.screenReaderOnly}>대전 문화공원 수자인 - 프리미엄</h1>
+<p className={styles.screenReaderOnly}>
+  대전 문화공원 수자인의 프리미엄은 숲세권 입지와 혁신 설계, 스마트홈,
+  커뮤니티, 브랜드 서비스가 결합되어 일상의 품격을 높이는 데 있습니다.
+</p>
 
-",
-											"url": "https://www.vaaclubs.com/LocationEnvironment/primium"
-										}
-										`}
-        </script>
-      </Helmet>
+<div className={styles.textBox}>
+  <div>자연과 설계가 완성한 프리미엄</div>
+  <div>도심 속 숲세권, 수자인의 가치</div>
+</div>
 
-      <Header isChanged={isScroll} />
-      <FixIcon />
-
-      <Bener title="프리미엄" />
-
-      <MenuBar contents={menuContents} />
-      {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
-      <h1 className={styles.screenReaderOnly}>
-        대전 문화공원 수자인 - 프리미엄
-      </h1>
-      <p className={styles.screenReaderOnly}>
-        대전 문화공원 수자인만의 차별화된 프리미엄을 만나보세요. 고급스러운
-        디자인, 첨단 기술이 결합된 설계, 입주민을 위한 특별한 혜택 등을 통해
-        풍경채만의 독보적인 가치를 제공합니다.
-      </p>
-
-      <div className={styles.textBox}>
-        <div>청주의 눈부신 가치 위에</div>
-        <div>대전 문화공원 수자인의 새로운 자부심으로 찾아옵니다.</div>
-      </div>
 
       <img
         src={page1}

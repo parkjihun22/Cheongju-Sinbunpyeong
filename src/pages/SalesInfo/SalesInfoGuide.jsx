@@ -12,10 +12,10 @@ import Ready from "../../components/Ready/Ready";
 
 const ComplexGuide1 = () => {
   const menuContents = [
-    { title: "청약제도변경", url: "/SalesInfo/SubscriptionGuide" },
-    // { title: "인터넷 청약", url: "/SalesInfo/guide" },
+    // { title: "청약제도변경", url: "/SalesInfo/SubscriptionGuide" },
+    { title: "공급안내", url: "/SalesInfo/guide" },
     { title: "모집공고안내", url: "/SalesInfo/announcement" },
-    // { title: "인지세납부안내", url: "/SalesInfo/stampTax" },
+    { title: "서류접수안내", url: "/SalesInfo/stampTax" },
   ];
 
   const [isScroll, setIsScroll] = useState(false);
@@ -52,109 +52,77 @@ const ComplexGuide1 = () => {
       <Helmet>
         {/* 기본 문자셋 및 모바일 최적화를 위한 meta 태그 */}
         <meta charSet="utf-8" />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1, maximum-scale=1"
-        />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
         <meta name="theme-color" content="#ffffff" />
         <meta name="robots" content="index, follow" />
 
         {/* SEO 최적화를 위한 메타 태그 */}
-        <title>대전 문화공원 수자인 - 인터넷청약 </title>
+        <title>대전 문화공원 수자인 - 공급안내</title>
         <meta
           name="description"
-          content="대전 문화공원 수자인의 인터넷 청약은 간편하고 빠르게 분양에 참여할 수 있는 방법을 제공합니다. 온라인을 통해 청약 절차를 빠르게 진행하며, 언제 어디서든 쉽게 신청 가능합니다. 청약 전 반드시 필요한 정보와 절차를 확인하고, 청약을 통해 대전 문화공원 수자인의 기회를 놓치지 마세요.
-
-"
+          content="대전 문화공원 수자인 공급안내: 총 세대수, 전용면적 별 공급규모(84㎡·126㎡), 일반·특별공급 유형, 계약 및 유의사항을 한눈에 확인하세요."
         />
         <meta
           name="keywords"
-          content="대전 문화공원 수자인, 대전 문화공원 수자인, 대전 문화공원 수자인모델하우스"
+          content="대전 문화공원 수자인, 공급안내, 세대수, 일반공급, 특별공급, 전용 84, 전용 126"
         />
-        <link
-          rel="canonical"
-          href="https://www.vaaclubs.com/SalesInfo/guide"
-        />
+        <link rel="canonical" href="https://www.vaaclubs.com/SalesInfo/guide" />
 
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
-        <meta
-          property="og:title"
-          content="대전 문화공원 수자인 - 인터넷청약 "
-        />
+        <meta property="og:title" content="대전 문화공원 수자인 - 공급안내" />
         <meta
           property="og:description"
-          content="대전 문화공원 수자인의 인터넷 청약은 간편하고 빠르게 분양에 참여할 수 있는 방법을 제공합니다. 온라인을 통해 청약 절차를 빠르게 진행하며, 언제 어디서든 쉽게 신청 가능합니다. 청약 전 반드시 필요한 정보와 절차를 확인하고, 청약을 통해 대전 문화공원 수자인의 기회를 놓치지 마세요.
-
-"
+          content="세대수, 타입별 공급규모(84㎡·126㎡), 일반·특별공급 정보 등 대전 문화공원 수자인의 공급안내를 확인하세요."
         />
-        <meta
-          property="og:image"
-          content="https://www.vaaclubs.com/Main1.png"
-        />
-        <meta
-          property="og:url"
-          content="https://www.vaaclubs.com/SalesInfo/guide"
-        />
+        <meta property="og:image" content="https://www.vaaclubs.com/Main1.png" />
+        <meta property="og:url" content="https://www.vaaclubs.com/SalesInfo/guide" />
         <meta property="og:site_name" content="대전 문화공원 수자인" />
 
         {/* Twitter 카드 설정 */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="대전 문화공원 수자인 - 인터넷청약 "
-        />
+        <meta name="twitter:title" content="대전 문화공원 수자인 - 공급안내" />
         <meta
           name="twitter:description"
-          content="대전 문화공원 수자인의 인터넷 청약은 간편하고 빠르게 분양에 참여할 수 있는 방법을 제공합니다. 온라인을 통해 청약 절차를 빠르게 진행하며, 언제 어디서든 쉽게 신청 가능합니다. 청약 전 반드시 필요한 정보와 절차를 확인하고, 청약을 통해 대전 문화공원 수자인의 기회를 놓치지 마세요.
-
-"
+          content="타입별 공급규모와 일반·특별공급 정보를 한 번에 확인하세요."
         />
-        <meta
-          name="twitter:image"
-          content="https://www.vaaclubs.com/Main1.png"
-        />
-        <meta
-          name="twitter:url"
-          content="https://www.vaaclubs.com/SalesInfo/guide"
-        />
+        <meta name="twitter:image" content="https://www.vaaclubs.com/Main1.png" />
+        <meta name="twitter:url" content="https://www.vaaclubs.com/SalesInfo/guide" />
 
         {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
         <script type="application/ld+json">
           {`
-                                        {
-                                            "@context": "https://schema.org",
-                                            "@type": "WebPage",
-                                            "name": "대전 문화공원 수자인 - 인터넷청약 ",
-                                            "description": "대전 문화공원 수자인의 인터넷 청약은 간편하고 빠르게 분양에 참여할 수 있는 방법을 제공합니다. 온라인을 통해 청약 절차를 빠르게 진행하며, 언제 어디서든 쉽게 신청 가능합니다. 청약 전 반드시 필요한 정보와 절차를 확인하고, 청약을 통해 대전 문화공원 수자인의 기회를 놓치지 마세요.
-
-",
-                                            "url": "https://www.vaaclubs.com/SalesInfo/guide"
-                                        }
-                                        `}
+            {
+              "@context": "https://schema.org",
+              "@type": "WebPage",
+              "name": "대전 문화공원 수자인 - 공급안내",
+              "description": "대전 문화공원 수자인 공급안내 — 세대수, 타입별 공급규모(84㎡·126㎡), 일반·특별공급, 계약 및 유의사항 정보.",
+              "url": "https://www.vaaclubs.com/SalesInfo/guide"
+            }
+          `}
         </script>
       </Helmet>
 
       <Header isChanged={isScroll} />
       <FixIcon />
 
-      <Bener title="청약안내" />
+      <Bener title="공급안내" />
 
       <MenuBar contents={menuContents} />
       {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
       <h1 className={styles.screenReaderOnly}>
-        대전 문화공원 수자인 - 인터넷청약
+        대전 문화공원 수자인 - 공급안내
       </h1>
       <p className={styles.screenReaderOnly}>
-        대전 문화공원 수자인의 인터넷 청약은 간편하고 빠르게 분양에 참여할
-        수 있는 방법을 제공합니다. 온라인을 통해 청약 절차를 빠르게 진행하며,
-        언제 어디서든 쉽게 신청 가능합니다. 청약 전 반드시 필요한 정보와 절차를
-        확인하고, 청약을 통해 대전 문화공원 수자인의 기회를 놓치지 마세요.
+        대전 문화공원 수자인의 공급안내 페이지입니다. 총 509세대, 전용 84㎡·126㎡
+        타입 구성 및 일반·특별공급 유형, 계약 관련 유의사항 등을 한눈에
+        확인하실 수 있습니다.
       </p>
 
       <div className={styles.textBox}>
-        <div>인터넷 청약하는 방법을 확인하세요</div>
-        <div>소수만 누리는 프리미엄 대전 문화공원 수자인</div>
+        <div>타입별 공급규모와 공급유형 안내</div>
+        <div>84㎡ · 126㎡, 합리적인 선택을 돕습니다</div>
       </div>
+
 
       {/* 이미지에 애니메이션 효과 추가 */}
       {/*<img

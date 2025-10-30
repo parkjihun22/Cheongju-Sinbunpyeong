@@ -90,7 +90,7 @@
     font-weight: 800;
     font-size: 2vw; /* 텍스트2 가장 큰 크기 */
     margin: 0.2vw 0;
-    color: #16243e; /* 파랑 색상 */
+    color: #014a77; /* 파랑 색상 */
 }
 
 /* 텍스트 애니메이션 */
@@ -132,7 +132,7 @@
     .mainImageTextBox1 {
     
         position: absolute;
-        top: 30%; /* 모바일에서 더 상단에 위치 */
+        top: 20%; /* 모바일에서 더 상단에 위치 */
         left: 50%;
         transform: translateX(-50%); /* 중앙 정렬 */
         color: #FFFFFF;
@@ -157,7 +157,7 @@
         line-height: 1.4; /* 텍스트 간격 조정 */
 
         margin: 0.5vw 0;
-        color: #16243e; /* 파랑 색상 */
+        color: #014a77; /* 파랑 색상 */
         animation: fadeInUp 1.5s ease-out forwards 0.5s; /* 점차적으로 나타나며 올라오는 효과 */
     }
 
@@ -477,7 +477,7 @@
             transform: translate(-50%, -50%);
             color: #FFFFFF;
             font-size: 1.5vw;
-            font-family: "HakgyoansimBareonbatangB";
+      font-family: 'Pretendard-Regular';
         }
 
         .text2 {
@@ -855,7 +855,7 @@
     .text1 {
     
         padding: 8vw 0 0 6vw;
-        font-family: "HakgyoansimBareonbatangB";
+  font-family: 'Pretendard-Regular';
         font-size: 5vw;
         color: #c98f25;
     }
@@ -864,7 +864,7 @@
         width: 100%;
         text-align: center;
         text-decoration: none;
-        font-family: "HakgyoansimBareonbatangB";
+  font-family: 'Pretendard-Regular';
         font-size: 1.5vw;
         color: #d1af73;
 
@@ -905,7 +905,7 @@
         transform: translate(-50%, -50%);
         color: #FFFFFF;
         font-size: 3vw;
-        font-family: "HakgyoansimBareonbatangB";
+  font-family: 'Pretendard-Regular';
     }
 
     .text2 {

@@ -167,81 +167,6 @@ const handleInputChange = (e) => {
 
   return (
     <>
-      <Helmet>
-        {/* 기본 문자셋 및 모바일 최적화를 위한 meta 태그 */}
-        <meta charSet="utf-8" />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1, maximum-scale=1"
-        />
-
-        {/* SEO 최적화를 위한 메타 태그 추가 */}
-        <title>▪대전 문화공원 수자인</title>
-        <meta
-          name="description"
-          content="대전 문화공원 수자인ㅣ☎️(대표)1533-8848ㅣ대전 문화공원 수자인ㅣ견본주택ㅣ모델하우스ㅣ위치ㅣ청약ㅣ분양ㅣ분양가ㅣ공급정보ㅣ잔여세대문의ㅣ고객센터ㅣ방문예약"
-        />
-        <meta name="keywords" content="대전 문화공원 수자인, 대전 문화공원 수자인, 대전 문화공원 수자인모델하우스" />
-        <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://www.vaaclubs.com/" />
-
-        {/* 모바일 친화성을 위한 추가 태그 */}
-        <meta name="HandheldFriendly" content="True" />
-        <meta name="theme-color" content="#ffffff" />
-
-        {/* Open Graph - 소셜 미디어(페이스북, LinkedIn 등) 공유 최적화 */}
-        <meta
-          property="og:title"
-          content="▪대전 문화공원 수자인"
-        />
-        <meta
-          property="og:description"
-          content="대전 문화공원 수자인ㅣ☎️(대표)1533-8848ㅣ대전 문화공원 수자인ㅣ견본주택ㅣ모델하우스ㅣ위치ㅣ청약ㅣ분양ㅣ분양가ㅣ공급정보ㅣ잔여세대문의ㅣ고객센터ㅣ방문예약"
-        />
-        <meta property="og:url" content="https://www.vaaclubs.com/" />
-        <meta property="og:type" content="website" />
-        <meta
-          property="og:image"
-          content="https://www.vaaclubs.com/Main1.png" // 실제 메인 이미지 URL로 변경하세요.
-        />
-
-        {/* Twitter 카드 설정 */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="▪대전 문화공원 수자인"
-        />
-        <meta
-          name="twitter:description"
-          content="대전 문화공원 수자인ㅣ☎️(대표)1533-8848ㅣ대전 문화공원 수자인ㅣ견본주택ㅣ모델하우스ㅣ위치ㅣ청약ㅣ분양ㅣ분양가ㅣ공급정보ㅣ잔여세대문의ㅣ고객센터ㅣ방문예약"
-        />
-        <meta
-          name="twitter:image"
-          content="https://www.vaaclubs.com/Main1.png" // 실제 이미지 URL로 변경하세요.
-        />
-
-        {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도를 높이기 위한 스키마 마크업 */}
-        <script type="application/ld+json">
-          {`
-      {
-        "@context": "http://schema.org",
-        "@type": "ApartmentComplex",
-        "name": "대전 문화공원 수자인",
-        "description": "브랜드 평판 1위 프리미엄 아파트. 방문 예약 시 신세계상품권 증정 등 다양한 혜택을 제공합니다.",
-        "url": "https://www.vaaclubs.com/",
-        "image": "https://www.vaaclubs.com/Main1.png",
-        "telephone": "1533-8848",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "청주시",
-          "addressLocality": "청주시",
-          "addressRegion": "경기도",
-          "postalCode": "우편번호"
-        }
-      }
-    `}
-        </script>
-      </Helmet>
       {!isMobile ? (
         // PC 버전
         <>
@@ -277,20 +202,21 @@ const handleInputChange = (e) => {
             <div className={styles.overlay}></div>
             <div className={styles.mainImageTextBox}>
               <div className={styles.mainImageTextSub}>
-                약 37,000세대 스케일{" "}
-                <span className={styles.greyText}>신흥주거벨트</span> |
-                3,949세대{" "}
-                <span className={styles.greyText}>초대형 랜드마크</span> |
-                살아보고 결정할 수 있는{" "}
-                <span className={styles.greyText}>착한조건</span>
+                약 15만㎡ 규모{" "}
+                <span className={styles.greyText}>문화공원 품은 숲세권</span> |  
+                대전 중심{" "}
+                <span className={styles.greyText}>도심 프리미엄</span> |  
+                자연과 설계가 조화를 이룬{" "}
+                <span className={styles.greyText}>브랜드 명작</span>
               </div>
               <div className={styles.mainImageTitleBox}>
                 <div className={styles.mainImageText}>
-                  청주가 기다린 가장 착한 아파트
+                  대전이 기다린 가장 품격 있는 주거공간
                 </div>
                 <div className={styles.mainImageLine}></div>
                 <div className={styles.mainImageText}>대전 문화공원 수자인</div>
               </div>
+
               {/* 기존 관심고객 등록 링크 대신 방문예약 버튼 클릭 시 팝업 오픈 */}
               <div>
                 <button
@@ -313,15 +239,15 @@ const handleInputChange = (e) => {
               <div className={styles.textBox}>
                 <div className={styles.text1}>Location</div>
                 <div className={styles.text2}>
-                  " 방문 예약 고객 전원 신세계상품권 100% 증정 "
-                </div>
-                <div className={styles.text3}>
-                  - 3,724세대 메머드급 대단지 프리미엄 <br />- 은화삼 CC조망 및
-                  경안천 수변공원으로 쾌적한 힐링 라이프 <br />
-                  - 지역 내 주요 간선도로 및 교통망 개선을 통해 주요지역 연결
-                  광역교통망의 중심
-                  <br />- 모두를 누리는 대전 문화공원 수자인
-                </div>
+                방문 예약 고객 전원 신세계상품권 100% 증정
+              </div>
+              <div className={styles.text3}>
+                - 대전 문화공원과 보문산이 어우러진 도심 속 숲세권 프리미엄 <br />
+                - 트램 2호선(예정) 및 서대전역 KTX 등 사통팔달 교통 네트워크 <br />
+                - 교육·쇼핑·문화시설이 모두 인접한 완성형 생활 인프라 <br />
+                - 자연과 도시, 모두를 누리는 대전 문화공원 수자인
+              </div>
+
                 <div className={styles.text4}>
                   <a
                     href="#"
@@ -582,46 +508,51 @@ const handleInputChange = (e) => {
           <Header isChanged={isScroll} />
 
           <div className={styles.imageContainer}>
-            <img
-              src={mobileImageMain}
-              className={styles.mainImage}
-              alt="대전 문화공원 수자인 mobilemain-image1"
-            />
-            <div className={styles.overlay}></div>
-            <div className={styles.mainImageTextBox1}>
-              <div className={styles.mainImageTextSub1}>
-              약 37,000세대 스케일
-                <br />
-                <span className={styles.greyText1}>신흥주거벨트</span>
-                <br />
-                3,949세대
-                <br />
-                <span className={styles.greyText1}>초대형 랜드마크</span>
-                <br />
-                살아보고 결정할 수 있는
-                <br />
-                <span className={styles.greyText1}>착한조건</span>
+          <img
+            src={mobileImageMain}
+            className={styles.mainImage}
+            alt="대전 문화공원 수자인 mobilemain-image1"
+          />
+          <div className={styles.overlay}></div>
+          <div className={styles.mainImageTextBox1}>
+            <div className={styles.mainImageTextSub1}>
+              약 15만평규모
+              <br />
+              <span className={styles.greyText1}>문화공원을 품은 숲세권</span>
+              <br />
+              대전 중심
+              <br />
+              <span className={styles.greyText1}>프리미엄 랜드마크</span>
+              <br />
+              자연과 설계가 조화를 이룬
+              <br />
+              <span className={styles.greyText1}>브랜드 명작</span>
+            </div>
+            <div className={styles.mainImageTitleBox1}>
+              <div className={styles.mainImageText1}>
+                프리미엄 주거설계
               </div>
-              <div className={styles.mainImageTitleBox1}>
-              <div className={styles.mainImageText1}>청주가 기다린 착한아파트 </div>
-                <div className={styles.mainImageText1}>대전 문화공원 수자인</div>
-              </div>
+              <div className={styles.mainImageText1}>대전 문화공원 수자인</div>
             </div>
           </div>
+        </div>
+
 
           <div className={styles.container1}>
             <div className={styles.text1}>Location</div>
             <div className={styles.text2}>
-              "방문예약을 하시면 신세계 상품권 100% 증정 "
-            </div>
-            <div className={styles.text3}>
-              - 3,724세대 메머드급 대단지 프리미엄
-              <br />
-              - 은화삼 CC조망 및 경안천 수변공원으로 쾌적한 힐링 라이프 <br />
-              - 지역 내 주요 간선도로 및 교통망 개선을 통해 주요지역 연결
-              광역교통망의 중심
-              <br />- 모두를 누리는 청주의 새로운 주거 타운의 완성
-            </div>
+              " 방문 예약 시 신세계상품권 100% 증정 "
+                </div>
+                <div className={styles.text3}>
+                  - 대전 문화공원과 보문산을 품은 도심 속 숲세권 프리미엄
+                  <br />
+                  - 트램 2호선(예정)·서대전역 KTX 등 사통팔달 교통 네트워크
+                  <br />
+                  - 교육·쇼핑·문화·의료 인프라를 모두 누리는 완성형 생활권
+                  <br />
+                  - 자연과 도시가 조화를 이루는 대전의 새로운 주거 랜드마크
+                </div>
+
             <div className={styles.text4}>
               {/* 외부 링크 대신 방문예약 클릭 시 팝업 호출 */}
               <a

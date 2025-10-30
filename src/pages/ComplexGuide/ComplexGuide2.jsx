@@ -9,7 +9,7 @@ import FixIcon from "../../components/FixIcon/FixIcon";
 import { Helmet } from "react-helmet-async";
 
 import Ready from "../../components/Ready/Ready";
-// import page1 from "../../assets/ComplexGuide/ComplexGuide2/page1.webp";
+import page1 from "../../assets/ComplexGuide/ComplexGuide2/dh.jpg";
 
 const ComplexGuide1 = () => {
   const menuContents = [
@@ -48,110 +48,91 @@ const ComplexGuide1 = () => {
 
   return (
     <div className={styles.container}>
-      <Helmet>
-        {/* 기본 문자셋 및 모바일 최적화를 위한 meta 태그 */}
-        <meta charSet="utf-8" />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1, maximum-scale=1"
-        />
-        <meta name="theme-color" content="#ffffff" />
-        <meta name="robots" content="index, follow" />
+<Helmet>
+  {/* 기본 문자셋 및 모바일 최적화를 위한 meta 태그 */}
+  <meta charSet="utf-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1"
+  />
+  <meta name="theme-color" content="#ffffff" />
+  <meta name="robots" content="index, follow" />
 
-        {/* SEO 최적화를 위한 메타 태그 */}
-        <title>대전 문화공원 수자인 - 호수배치도</title>
-        <meta
-          name="description"
-          content="대전 문화공원 수자인의 호수 배치도를 통해 각 세대의 위치와 전망을 확인하세요. 주거 만족도를 높이는 체계적인 배치 설계로 더 나은 라이프스타일을 제안합니다.
-"
-        />
-        <meta name="keywords" content="대전 문화공원 수자인, 대전 문화공원 수자인, 대전 문화공원 수자인모델하우스" /> 
-        <link
-          rel="canonical"
-          href="https://www.vaaclubs.com/ComplexGuide/detailintro"
-        />
+  {/* SEO 최적화를 위한 메타 태그 */}
+  <title>대전 문화공원 수자인 - 호수배치도</title>
+  <meta
+    name="description"
+    content="대전 문화공원 수자인의 호수배치도를 통해 각 세대의 위치, 향, 전망, 공원 조망 가능 여부를 확인하세요. 동·호수별 배치와 평면 특장점을 한눈에 안내합니다."
+  />
+  <meta
+    name="keywords"
+    content="대전 문화공원 수자인, 호수배치도, 동호수 배치, 공원조망, 대전 수자인 단지안내"
+  />
+  <link
+    rel="canonical"
+    href="https://www.vaaclubs.com/ComplexGuide/detailintro"
+  />
 
-        {/* Open Graph - 소셜 미디어 공유 최적화 */}
-        <meta
-          property="og:title"
-          content="대전 문화공원 수자인 - 호수배치도"
-        />
-        <meta
-          property="og:description"
-          content="대전 문화공원 수자인의 호수 배치도를 통해 각 세대의 위치와 전망을 확인하세요. 주거 만족도를 높이는 체계적인 배치 설계로 더 나은 라이프스타일을 제안합니다.
-"
-        />
-        <meta
-          property="og:image"
-          content="https://www.vaaclubs.com/Main1.png"
-        />
-        <meta
-          property="og:url"
-          content="https://www.vaaclubs.com/ComplexGuide/detailintro"
-        />
-        <meta property="og:site_name" content="대전 문화공원 수자인" />
+  {/* Open Graph - 소셜 미디어 공유 최적화 */}
+  <meta property="og:title" content="대전 문화공원 수자인 - 호수배치도" />
+  <meta
+    property="og:description"
+    content="대전 문화공원 수자인의 호수배치도에서 세대 위치, 향, 전망, 공원 조망 가능 여부를 확인하세요."
+  />
+  <meta property="og:image" content="https://www.vaaclubs.com/Main1.png" />
+  <meta property="og:url" content="https://www.vaaclubs.com/ComplexGuide/detailintro" />
+  <meta property="og:site_name" content="대전 문화공원 수자인" />
 
-        {/* Twitter 카드 설정 */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="대전 문화공원 수자인 - 호수배치도"
-        />
-        <meta
-          name="twitter:description"
-          content="대전 문화공원 수자인의 호수 배치도를 통해 각 세대의 위치와 전망을 확인하세요. 주거 만족도를 높이는 체계적인 배치 설계로 더 나은 라이프스타일을 제안합니다.
-"
-        />
-        <meta
-          name="twitter:image"
-          content="https://www.vaaclubs.com/Main1.png"
-        />
-        <meta
-          name="twitter:url"
-          content="https://www.vaaclubs.com/ComplexGuide/detailintro"
-        />
+  {/* Twitter 카드 설정 */}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="대전 문화공원 수자인 - 호수배치도" />
+  <meta
+    name="twitter:description"
+    content="동·호수별 배치와 평면 특장점을 한눈에 확인하세요."
+  />
+  <meta name="twitter:image" content="https://www.vaaclubs.com/Main1.png" />
+  <meta name="twitter:url" content="https://www.vaaclubs.com/ComplexGuide/detailintro" />
 
-        {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
-        <script type="application/ld+json">
-          {`
-										{
-											"@context": "https://schema.org",
-											"@type": "WebPage",
-											"name": "대전 문화공원 수자인 - 호수배치도",
-											"description": "대전 문화공원 수자인의 호수 배치도를 통해 각 세대의 위치와 전망을 확인하세요. 주거 만족도를 높이는 체계적인 배치 설계로 더 나은 라이프스타일을 제안합니다.
-",
-											"url": "https://www.vaaclubs.com/ComplexGuide/detailintro"
-										}
-										`}
-        </script>
-      </Helmet>
+  {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
+  <script type="application/ld+json">
+    {`
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "대전 문화공원 수자인 - 호수배치도",
+        "description": "대전 문화공원 수자인의 호수배치도를 통해 각 세대의 위치, 향, 전망, 공원 조망 가능 여부를 확인하세요.",
+        "url": "https://www.vaaclubs.com/ComplexGuide/detailintro"
+      }
+    `}
+  </script>
+</Helmet>
 
-      <Header isChanged={isScroll} />
-      <FixIcon />
-      <Bener title="단지안내" />
-      <MenuBar contents={menuContents} />
-      <h1 className={styles.screenReaderOnly}>
-        대전 문화공원 수자인 - 호수배치도
-      </h1>
-      <p className={styles.screenReaderOnly}>
-        호수 배치도 페이지는 각 세대의 위치와 평면도를 제공합니다. 고객들이
-        원하는 호수를 찾고 세부적인 배치 정보를 통해 자신의 집을 상상할 수 있게
-        돕습니다. 각 호수의 특징과 장점을 살펴보며 선택의 폭을 넓힐 수 있습니다.
-      </p>
+<Header isChanged={isScroll} />
+<FixIcon />
+<Bener title="단지안내" />
+<MenuBar contents={menuContents} />
+<h1 className={styles.screenReaderOnly}>
+  대전 문화공원 수자인 - 호수배치도
+</h1>
+<p className={styles.screenReaderOnly}>
+  호수배치도 페이지는 동·호수별 세대 위치, 향(남향/남동향 등), 전망, 그리고
+  공원 조망 가능 여부를 시각적으로 제공합니다. 원하는 세대를 쉽게 찾고,
+  평면 특장점을 비교하여 합리적인 선택을 돕습니다.
+</p>
 
-      <div className={styles.textBox}>
-        <div>대전 문화공원 수자인가 눈부신 가치 위에</div>
-        <div>새로운 자부심으로 찾아옵니다.</div>
-      </div>
+<div className={styles.textBox}>
+  <div>문화공원을 품은 조망 특화 배치</div>
+  <div>동·호수별 맞춤형 라이프를 제안합니다</div>
+</div>
+
 
       {/* 이미지에 애니메이션 효과 추가 */}
-      {/* <img
+      <img
 				className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
 				src={page1}
 				alt="대전 문화공원 수자인 호수배치도-image1"
 				onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
-			/> */}
-      <Ready/>
+			/>
   
 
       <div className={styles.commonBox}>

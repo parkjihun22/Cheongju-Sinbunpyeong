@@ -45,99 +45,80 @@ const Brand2 = () => {
 	return (
 		<div className={styles.container}>
 <Helmet>
-		{/* 기본 문자셋 및 모바일 최적화를 위한 meta 태그 */}
-		<meta charSet="utf-8" />
-		<meta
-		  name="viewport"
-		  content="width=device-width, initial-scale=1, maximum-scale=1"
-		/>
-		<meta name="theme-color" content="#ffffff" />
-		<meta name="robots" content="index, follow" />
+  {/* 기본 문자셋 및 모바일 최적화를 위한 meta 태그 */}
+  <meta charSet="utf-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1"
+  />
+  <meta name="theme-color" content="#ffffff" />
+  <meta name="robots" content="index, follow" />
 
-		{/* SEO 최적화를 위한 메타 태그 */}
-		<title>대전 문화공원 수자인 - 홍보영상</title>
-		<meta
-		  name="description"
-		  content="대전 문화공원 수자인의 홍보영상을 통해 단지의 매력적인 디자인과 최신 편의시설을 생생하게 만나보세요. 현대적 감각과 고급스러움을 결합한 주거 환경, 청주의 중심에서 경험할 수 있는 새로운 라이프스타일을 영상으로 확인하세요.
-"
-		/>
-  		<meta name="keywords" content="대전 문화공원 수자인, 대전 문화공원 수자인, 대전 문화공원 수자인모델하우스" />			
-		<link
-		  rel="canonical"
-		  href="https://www.vaaclubs.com/Brand/video"
-		/>
+  {/* SEO 최적화를 위한 메타 태그 */}
+  <title>대전 문화공원 수자인 - 홍보영상</title>
+  <meta
+    name="description"
+    content="대전 문화공원 수자인의 홍보영상으로 숲세권 입지와 프리미엄 단지 가치를 생생하게 확인하세요. 자연과 도심이 공존하는 대전 중심 문화동에서 수자인이 선보이는 새로운 라이프스타일을 영상으로 만나보세요."
+  />
+  <meta
+    name="keywords"
+    content="대전 문화공원 수자인, 문화동 수자인, 대전 수자인 홍보영상, 대전 아파트 분양, 숲세권 아파트"
+  />
+  <link rel="canonical" href="https://www.vaaclubs.com/Brand/video" />
 
-		{/* Open Graph - 소셜 미디어 공유 최적화 */}
-		<meta
-		  property="og:title"
-		  content="대전 문화공원 수자인 - 홍보영상"
-		/>
-		<meta
-		  property="og:description"
-		  content="대전 문화공원 수자인의 홍보영상을 통해 단지의 매력적인 디자인과 최신 편의시설을 생생하게 만나보세요. 현대적 감각과 고급스러움을 결합한 주거 환경, 청주의 중심에서 경험할 수 있는 새로운 라이프스타일을 영상으로 확인하세요.
-"
-		/>
-		<meta
-		  property="og:image"
-		  content="https://www.vaaclubs.com/Main1.png"
-		/>
-		<meta
-		  property="og:url"
-		  content="https://www.vaaclubs.com/Brand/video"
-		/>
-		<meta property="og:site_name" content="대전 문화공원 수자인" />
+  {/* Open Graph - 소셜 미디어 공유 최적화 */}
+  <meta property="og:title" content="대전 문화공원 수자인 - 홍보영상" />
+  <meta
+    property="og:description"
+    content="대전 문화공원 수자인의 홍보영상으로 숲세권 입지와 프리미엄 단지 가치를 생생하게 확인하세요. 자연과 도심이 공존하는 대전 중심 문화동에서 수자인이 선보이는 새로운 라이프스타일을 영상으로 만나보세요."
+  />
+  <meta property="og:image" content="https://www.vaaclubs.com/Main1.png" />
+  <meta property="og:url" content="https://www.vaaclubs.com/Brand/video" />
+  <meta property="og:site_name" content="대전 문화공원 수자인" />
 
-		{/* Twitter 카드 설정 */}
-		<meta name="twitter:card" content="summary_large_image" />
-		<meta
-		  name="twitter:title"
-		  content="대전 문화공원 수자인 - 홍보영상"
-		/>
-		<meta
-		  name="twitter:description"
-		  content="대전 문화공원 수자인의 홍보영상을 통해 단지의 매력적인 디자인과 최신 편의시설을 생생하게 만나보세요. 현대적 감각과 고급스러움을 결합한 주거 환경, 청주의 중심에서 경험할 수 있는 새로운 라이프스타일을 영상으로 확인하세요.
-"
-		/>
-		<meta
-		  name="twitter:image"
-		  content="https://www.vaaclubs.com/Main1.png"
-		/>
-		<meta
-		  name="twitter:url"
-		  content="https://www.vaaclubs.com/Brand/video"
-		/>
+  {/* Twitter 카드 설정 */}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="대전 문화공원 수자인 - 홍보영상" />
+  <meta
+    name="twitter:description"
+    content="대전 문화공원 수자인의 홍보영상으로 숲세권 입지와 프리미엄 단지 가치를 생생하게 확인하세요."
+  />
+  <meta name="twitter:image" content="https://www.vaaclubs.com/Main1.png" />
+  <meta name="twitter:url" content="https://www.vaaclubs.com/Brand/video" />
 
-		{/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
-		<script type="application/ld+json">
-		  {`
-										{
-											"@context": "https://schema.org",
-											"@type": "WebPage",
-											"name": "대전 문화공원 수자인 - 홍보영상",
-											"description": "대전 문화공원 수자인의 홍보영상을 통해 단지의 매력적인 디자인과 최신 편의시설을 생생하게 만나보세요. 현대적 감각과 고급스러움을 결합한 주거 환경, 청주의 중심에서 경험할 수 있는 새로운 라이프스타일을 영상으로 확인하세요.
-",
-											"url": "https://www.vaaclubs.com/Brand/video"
-										}
-										`}
-		</script>
-	  </Helmet>    
-			
-			<Header isChanged={isScroll} />
-			<FixIcon />
+  {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
+  <script type="application/ld+json">
+    {`
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "대전 문화공원 수자인 - 홍보영상",
+        "description": "대전 문화공원 수자인의 홍보영상으로 숲세권 입지와 프리미엄 단지 가치를 생생하게 확인하세요. 자연과 도심이 공존하는 대전 중심 문화동에서 수자인이 선보이는 새로운 라이프스타일을 영상으로 만나보세요.",
+        "url": "https://www.vaaclubs.com/Brand/video"
+      }
+    `}
+  </script>
+</Helmet>
 
-			<Bener title="홍보영상" />
+<Header isChanged={isScroll} />
+<FixIcon />
 
-			<MenuBar contents={menuContents} />
+<Bener title="홍보영상" />
 
-						{/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
-						<h1 className={styles.screenReaderOnly}>대전 문화공원 수자인 - 홍보영상</h1>
-						<p className={styles.screenReaderOnly}>대전 문화공원 수자인의 홍보영상을 통해 단지의 매력적인 디자인과 최신 편의시설을 생생하게 만나보세요. 현대적 감각과 고급스러움을 결합한 주거 환경, 청주의 중심에서 경험할 수 있는 새로운 라이프스타일을 영상으로 확인하세요.
-						</p>	
+<MenuBar contents={menuContents} />
 
-			<div className={`${styles.textBox} ${isTextVisible ? styles.active : ''}`}>
-                <div>대전 문화공원 수자인가 눈부신 가치 위에</div>
-                <div>새로운 자부심으로 찾아옵니다.</div>
-            </div>
+{/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
+<h1 className={styles.screenReaderOnly}>대전 문화공원 수자인 - 홍보영상</h1>
+<p className={styles.screenReaderOnly}>
+  대전 문화공원 수자인의 홍보영상을 통해 숲세권 입지, 프리미엄 단지 설계,
+  그리고 브랜드가 제시하는 새로운 라이프스타일을 확인하세요.
+</p>
+
+<div className={`${styles.textBox} ${isTextVisible ? styles.active : ''}`}>
+  <div>대전의 중심, 문화공원을 품은 수자인</div>
+  <div>영상으로 만나는 프리미엄 라이프</div>
+</div>
+
 
 			<div className={styles.videoContainer}>
 				<YouTube

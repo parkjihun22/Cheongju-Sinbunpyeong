@@ -61,95 +61,15 @@ const BusinessGuide2 = () => {
 
 	return (
 		<div className={styles.container}>
-<Helmet>
-		{/* 기본 문자셋 및 모바일 최적화를 위한 meta 태그 */}
-		<meta charSet="utf-8" />
-		<meta
-		  name="viewport"
-		  content="width=device-width, initial-scale=1, maximum-scale=1"
-		/>
-		<meta name="theme-color" content="#ffffff" />
-		<meta name="robots" content="index, follow" />
-
-		{/* SEO 최적화를 위한 메타 태그 */}
-		<title>대전 문화공원 수자인 - 당첨자 서류안내</title>
-		<meta
-		  name="description"
-		  content="대전 문화공원 수자인 선착순계약을 위한 필수 서류 목록과 준비 절차를 안내합니다. 간단하고 명확한 정보로 청약 당첨 후 필요한 준비를 돕고, 서류 제출에 문제가 없도록 상세한 가이드를 제공합니다
-"
-		/>
-  		<meta name="keywords" content="대전 문화공원 수자인, 대전 문화공원 수자인, 대전 문화공원 수자인모델하우스" />					
-		<link
-		  rel="canonical"
-		  href="https://www.vaaclubs.com/BusinessGuide/documents"
-		/>
-
-		{/* Open Graph - 소셜 미디어 공유 최적화 */}
-		<meta
-		  property="og:title"
-		  content="대전 문화공원 수자인 - 당첨자 서류안내"
-		/>
-		<meta
-		  property="og:description"
-		  content="대전 문화공원 수자인 선착순계약을 위한 필수 서류 목록과 준비 절차를 안내합니다. 간단하고 명확한 정보로 청약 당첨 후 필요한 준비를 돕고, 서류 제출에 문제가 없도록 상세한 가이드를 제공합니다
-"
-		/>
-		<meta
-		  property="og:image"
-		  content="https://www.vaaclubs.com/Main1.png"
-		/>
-		<meta
-		  property="og:url"
-		  content="https://www.vaaclubs.com/BusinessGuide/documents"
-		/>
-		<meta property="og:site_name" content="대전 문화공원 수자인" />
-
-		{/* Twitter 카드 설정 */}
-		<meta name="twitter:card" content="summary_large_image" />
-		<meta
-		  name="twitter:title"
-		  content="대전 문화공원 수자인 - 당첨자 서류안내"
-		/>
-		<meta
-		  name="twitter:description"
-		  content="대전 문화공원 수자인 선착순계약을 위한 필수 서류 목록과 준비 절차를 안내합니다. 간단하고 명확한 정보로 청약 당첨 후 필요한 준비를 돕고, 서류 제출에 문제가 없도록 상세한 가이드를 제공합니다
-"
-		/>
-		<meta
-		  name="twitter:image"
-		  content="https://www.vaaclubs.com/Main1.png"
-		/>
-		<meta
-		  name="twitter:url"
-		  content="https://www.vaaclubs.com/BusinessGuide/documents"
-		/>
-
-		{/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
-		<script type="application/ld+json">
-		  {`
-										{
-											"@context": "https://schema.org",
-											"@type": "WebPage",
-											"name": "대전 문화공원 수자인 - 당첨자 서류안내",
-											"description": "대전 문화공원 수자인 선착순계약을 위한 필수 서류 목록과 준비 절차를 안내합니다. 간단하고 명확한 정보로 청약 당첨 후 필요한 준비를 돕고, 서류 제출에 문제가 없도록 상세한 가이드를 제공합니다
-",
-											"url": "https://www.vaaclubs.com/BusinessGuide/documents"
-										}
-										`}
-		</script>
-	  </Helmet>  
 
 			<Header isChanged={isScroll} />
 			<FixIcon />
 			<Bener title="사업개요" />
 			<MenuBar contents={menuContents} />
-			{/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
-            <h1 className={styles.screenReaderOnly}>대전 문화공원 수자인 - 계약서류안내</h1>
-			<p className={styles.screenReaderOnly}>계약서류안내 페이지지에서는 분양 당첨 후 필요한 서류들에 대해 안내합니다. 계약 체결을 위해 준비해야 할 서류 목록과 함께, 각 서류의 제출 기한과 정확한 준비 방법을 안내하여 고객들이 혼동 없이 준비할 수 있도록 돕습니다.</p>
 
 			<div className={styles.textBox}>
-				<div>청주의 눈부신 가치 위에</div>
-				<div>대전 문화공원 수자인의 새로운 자부심으로 찾아옵니다.</div>
+				<div>대전의 눈부신 가치 위에</div>
+				<div>수자인의 새로운 자부심으로 찾아옵니다.</div>
 			</div>
 
 			{/* 이미지에 isImageVisible 상태 적용 */}
