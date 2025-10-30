@@ -103,9 +103,9 @@ const Header = () => {
         <div className={styles.mobileHeader}>
           <div onClick={() => setIsMobileMenu(!isMobileMenu)}>
             {!isMobileMenu ? (
-              <AiOutlineMenu className={styles.icon} size={25} color="#D9A98B" />
+              <AiOutlineMenu className={styles.icon} size={25} color="#014a77" />
             ) : (
-              <IoCloseSharp className={styles.icon} size={25} color="#D9A98B" />
+              <IoCloseSharp className={styles.icon} size={25} color="#014a77" />
             )}
           </div>
           {isMobileMenu && (
@@ -121,7 +121,7 @@ const Header = () => {
           </Link>
           {/* 모바일에서는 기존 전화 연결 a 태그 유지 */}
           <a href="tel:1533-8848">
-            <IoCall className={styles.icon} size={25} color="#D9A98B" />
+            <IoCall className={styles.icon} size={25} color="#014a77" />
           </a>
         </div>
         {/* 모바일에서도 팝업을 렌더링 (최상위에서) */}

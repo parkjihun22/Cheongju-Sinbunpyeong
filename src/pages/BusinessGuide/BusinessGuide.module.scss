@@ -39,7 +39,7 @@
     div:nth-of-type(2) {
         margin-top: 0.5vw;
         font-weight: 800;
-        color: #D9A98B;
+        color: #014a77;
     }
 }
 
@@ -161,9 +161,9 @@
       padding: 10px 24px;
       font-size: 1vw;
       font-weight: 600;
-      color: #D9A98B;
+      color: #014a77;
       background-color: #ffffff;
-      border: 2px solid #D9A98B;
+      border: 2px solid #014a77;
       border-radius: 1px; /* 더 둥근 버튼 */
       text-transform: uppercase;
       transition: all 0.3s ease;
@@ -172,7 +172,7 @@
       letter-spacing: 0.5px; /* 글자 간격 조정 */
     
       &:hover {
-        background-color: #D9A98B;
+        background-color: #014a77;
         color: #fff;
         transform: translateY(-2px);
         box-shadow: 0 4px 8px rgba(9, 80, 82, 0.2); /* 호버 시 그림자 효과 */
@@ -184,9 +184,9 @@
       }
     
       &.active {
-        background-color: #D9A98B;
+        background-color: #014a77;
         color: #fff;
-        border-color: #D9A98B;
+        border-color: #014a77;
       }
     }
   
@@ -232,7 +232,7 @@
     font-size: 2.3vw;
     margin-top: 0.5vw;
     font-weight: 800;
-    color: #D9A98B;
+    color: #014a77;
 }
 
 /* 모바일 스타일 */
@@ -307,7 +307,7 @@
   
   /* 활성화된 버튼(선택된 단지)에만 적용할 스타일 */
   .active {
-    background-color: #D9A98B !important; /* 강조 색상 (네이비) */
+    background-color: #014a77 !important; /* 강조 색상 (네이비) */
     color: #ffffff !important;
   }
   
