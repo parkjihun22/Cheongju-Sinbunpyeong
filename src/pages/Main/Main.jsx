@@ -572,7 +572,7 @@ const handleInputChange = (e) => {
           <div className={styles.container7}>
             <div className={styles.textBox}>
               <div className={styles.title}>
-                청주의 중심으로 사는
+                대전의 중심으로 사는
                 <br />
                 <span>최고의 브랜드 아파트</span>
               </div>
