@@ -517,7 +517,7 @@ const handleInputChange = (e) => {
           <div className={styles.overlay}></div>
           <div className={styles.mainImageTextBox1}>
             <div className={styles.mainImageTextSub1}>
-              약 15만평규모
+              약 4만7천평 규모
               <br />
               <span className={styles.greyText1}>문화공원을 품은 숲세권</span>
               <br />
