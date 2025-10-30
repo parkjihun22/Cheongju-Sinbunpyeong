@@ -48,40 +48,41 @@ const section3Contents = [
   {
     imgSrc: section3_Image1,
     title: "PREMIUM 01",
-    text1: `3,949세대 랜드마크 풍경채`,
-    text2: `청주를 대표할<br />
-			      대단지 브랜드 프리미엄`,
+    text1: `509세대 랜드마크 수자인`,
+    text2: `대전 중심에서<br />
+            완성하는 프리미엄 주거단지`,
     link: "/BusinessGuide/intro",
     linkText: "더 알아보기 >",
   },
   {
     imgSrc: section3_Image2,
     title: "PREMIUM 02",
-    text1: `여유로운 직주근접 단지`,
-    text2: `약 37,000세대 스케일<br />
-			      신흥주거벨트의 핵심`,
+    text1: `도심 속 숲세권 입지`,
+    text2: `문화공원 인접<br />
+            자연과 도시가 만나는 라이프`,
     link: "/LocationEnvironment/intro",
     linkText: "더 알아보기 >",
   },
   {
     imgSrc: section3_Image3,
     title: "PREMIUM 03",
-    text1: `매머드 급 고품격 커뮤니티`,
-    text2: `대형 피트니스 센터 및<br />
-			      독서실 골프클럽 등 대규모 커뮤니티`,
-    link: "/LocationEnvironment/intro",
+    text1: `프리미엄 커뮤니티 시설`,
+    text2: `피트니스·독서실·골프클럽 등<br />
+            입주민을 위한 특별한 공간`,
+    link: "/ComplexGuide/community",
     linkText: "더 알아보기 >",
   },
   {
     imgSrc: section3_Image4,
     title: "PREMIUM 04",
-    text1: `장기민간임대 혜택`,
-    text2: `살아보고 선택 할 수 있는<br />
-			      합리적인 기회`,
+    text1: `브랜드와 설계가 만들어내는 가치`,
+    text2: `4베이 혁신평면·스마트홈 시스템 등<br />
+            한 차원 높은 품격`,
     link: "/LocationEnvironment/primium",
     linkText: "더 알아보기 >",
   },
 ];
+
 
 const Main = () => {
   // 기존 상태 변수들
