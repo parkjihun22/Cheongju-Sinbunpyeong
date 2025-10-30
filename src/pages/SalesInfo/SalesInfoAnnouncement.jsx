@@ -9,7 +9,7 @@ import Bener from "../../components/Bener/Bener";
 import FixIcon from "../../components/FixIcon/FixIcon";
 import { Helmet } from "react-helmet-async";
 
-// import page1 from "../../assets/SalesInfo/SalesInfoAnnouncement/page1.jpg";
+import page1 from "../../assets/SalesInfo/SalesInfoAnnouncement/page1.jpg";
 import pdfIcon from "../../assets/icons/pdf-icon.png";  // PDF 아이콘 이미지 임포트
 
 import Ready from "../../components/Ready/Ready";
@@ -140,14 +140,13 @@ const ComplexGuide1 = () => {
         <div>일정·자격·서류를 한눈에, 대전 문화공원 수자인</div>
       </div>
 
-      {/* <img
+      <img
         className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
         src={page1}
         alt="대전 문화공원 수자인모집공고안내-image1"
         onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
-         /> */}
+         />
 
-<Ready/>
       {/* 입주자 모집공고 PDF로 보기 버튼 */}
        <button onClick={openPDF} className={styles.pdfButton}>
                 <img src={pdfIcon} alt="PDF 아이콘" className={styles.pdfIcon} /> 
