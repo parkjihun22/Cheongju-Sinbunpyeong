@@ -398,7 +398,7 @@ const handleInputChange = (e) => {
   {/* 입력 폼 */}
   <form
     className={styles.pcVisitForm}
-    action="https://formspree.io/f/mbldpwpz"
+    action="https://formspree.io/f/mldoljvd"
     method="POST"
   >
     <label htmlFor="name">
@@ -660,7 +660,7 @@ const handleInputChange = (e) => {
 
   <form
     className={styles.mobileVisitForm}
-    action="https://formspree.io/f/mbldpwpz"
+    action="https://formspree.io/f/mldoljvd"
     method="POST"
   >
     <label htmlFor="name">
