@@ -18,7 +18,7 @@ const BusinessGuide2 = () => {
     const menuContents = [
       { title: "사업안내", url: "/BusinessGuide/intro" },
       { title: "분양일정", url: "/BusinessGuide/plan" },
-      // { title: "계약서류안내", url: "/BusinessGuide/documents" },
+      // { title: "당첨자서류안내", url: "/BusinessGuide/documents" }
     ];
 
     const [isScroll, setIsScroll] = useState(false);

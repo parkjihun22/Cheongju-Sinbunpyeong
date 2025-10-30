@@ -30,7 +30,7 @@ const menuArray = [
     ],
   },
   {
-    title: "청약안내",
+    title: "분양안내",
     subMenu: [
       // { subTitle: "청약제도변경", subUrl: "/SalesInfo/SubscriptionGuide" },
       { subTitle: "공급안내", subUrl: "/SalesInfo/guide" },
