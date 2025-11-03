@@ -70,7 +70,7 @@ const ComplexGuide3 = () => {
     name="keywords"
     content="대전 문화공원 수자인, 수자인 커뮤니티, 피트니스, 독서실, 키즈라운지, 주민카페"
   />
-  <link rel="canonical" href="https://www.vaaclubs.com/ComplexGuide/community" />
+  <link rel="canonical" href="https://www.apay.co.kr/ComplexGuide/community" />
 
   {/* Open Graph - 소셜 미디어 공유 최적화 */}
   <meta property="og:title" content="대전 문화공원 수자인 - 커뮤니티" />
@@ -78,8 +78,8 @@ const ComplexGuide3 = () => {
     property="og:description"
     content="피트니스, GX룸, 실내골프, 독서실·스터디룸, 키즈라운지, 주민카페 등 대전 문화공원 수자인의 다양한 커뮤니티 시설을 확인하세요."
   />
-  <meta property="og:image" content="https://www.vaaclubs.com/Main1.png" />
-  <meta property="og:url" content="https://www.vaaclubs.com/ComplexGuide/community" />
+  <meta property="og:image" content="https://www.apay.co.kr/Main1.png" />
+  <meta property="og:url" content="https://www.apay.co.kr/ComplexGuide/community" />
   <meta property="og:site_name" content="대전 문화공원 수자인" />
 
   {/* Twitter 카드 설정 */}
@@ -89,8 +89,8 @@ const ComplexGuide3 = () => {
     name="twitter:description"
     content="대전 문화공원 수자인의 프리미엄 커뮤니티: 피트니스·실내골프·독서실·키즈라운지·주민카페."
   />
-  <meta name="twitter:image" content="https://www.vaaclubs.com/Main1.png" />
-  <meta name="twitter:url" content="https://www.vaaclubs.com/ComplexGuide/community" />
+  <meta name="twitter:image" content="https://www.apay.co.kr/Main1.png" />
+  <meta name="twitter:url" content="https://www.apay.co.kr/ComplexGuide/community" />
 
   {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
   <script type="application/ld+json">
@@ -100,7 +100,7 @@ const ComplexGuide3 = () => {
         "@type": "WebPage",
         "name": "대전 문화공원 수자인 - 커뮤니티",
         "description": "대전 문화공원 수자인의 커뮤니티 시설: 피트니스, GX룸, 실내골프, 독서실·스터디룸, 키즈라운지, 주민카페 등.",
-        "url": "https://www.vaaclubs.com/ComplexGuide/community"
+        "url": "https://www.apay.co.kr/ComplexGuide/community"
       }
     `}
   </script>

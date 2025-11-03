@@ -67,7 +67,7 @@ const BusinessGuide1 = () => {
 			<MenuBar contents={menuContents} />
 
 			<div className={styles.textBox}>
-				<div>청주를 누리는 특별한 라이프 컬렉션</div>
+				<div>특별한 라이프 컬렉션</div>
 				<div>대전 문화공원 수자인의 새로운 자부심으로 찾아옵니다.</div>
 			</div>
 

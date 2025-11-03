@@ -67,7 +67,7 @@ const Brand1 = () => {
     name="keywords"
     content="대전 문화공원 수자인, 문화동 수자인, 대전 수자인 모델하우스, 대전 신규분양, 대전 아파트 분양"
   />
-  <link rel="canonical" href="https://www.vaaclubs.com/Brand/intro" />
+  <link rel="canonical" href="https://www.apay.co.kr/Brand/intro" />
 
   {/* Open Graph - 소셜 미디어 공유 최적화 */}
   <meta
@@ -78,10 +78,10 @@ const Brand1 = () => {
     property="og:description"
     content="대전 문화공원 수자인의 브랜드 철학과 가치를 소개합니다. 자연과 도심이 공존하는 대전 중심 문화동에서, 수자인이 선보이는 새로운 프리미엄 라이프를 만나보세요. 민간공원 특례사업으로 조성된 대규모 숲세권 단지로, 자연친화적인 설계와 브랜드의 품격이 어우러진 주거문화를 제시합니다."
   />
-  <meta property="og:image" content="https://www.vaaclubs.com/Main1.png" />
+  <meta property="og:image" content="https://www.apay.co.kr/Main1.png" />
   <meta
     property="og:url"
-    content="https://www.vaaclubs.com/Brand/intro"
+    content="https://www.apay.co.kr/Brand/intro"
   />
   <meta property="og:site_name" content="대전 문화공원 수자인" />
 
@@ -97,11 +97,11 @@ const Brand1 = () => {
   />
   <meta
     name="twitter:image"
-    content="https://www.vaaclubs.com/Main1.png"
+    content="https://www.apay.co.kr/Main1.png"
   />
   <meta
     name="twitter:url"
-    content="https://www.vaaclubs.com/Brand/intro"
+    content="https://www.apay.co.kr/Brand/intro"
   />
 
   {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
@@ -112,7 +112,7 @@ const Brand1 = () => {
       "@type": "WebPage",
       "name": "대전 문화공원 수자인 - 브랜드 소개",
       "description": "대전 문화공원 수자인의 브랜드 철학과 가치를 소개합니다. 자연과 도심이 공존하는 대전 중심 문화동에서, 수자인이 선보이는 새로운 프리미엄 라이프를 만나보세요. 민간공원 특례사업으로 조성된 대규모 숲세권 단지로, 자연친화적인 설계와 브랜드의 품격이 어우러진 주거문화를 제시합니다.",
-      "url": "https://www.vaaclubs.com/Brand/intro"
+      "url": "https://www.apay.co.kr/Brand/intro"
     }
     `}
   </script>

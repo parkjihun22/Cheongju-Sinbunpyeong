@@ -66,7 +66,7 @@ const ComplexGuide1 = () => {
           name="keywords"
           content="대전 문화공원 수자인, 공급안내, 세대수, 일반공급, 특별공급, 전용 84, 전용 126"
         />
-        <link rel="canonical" href="https://www.vaaclubs.com/SalesInfo/guide" />
+        <link rel="canonical" href="https://www.apay.co.kr/SalesInfo/guide" />
 
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
         <meta property="og:title" content="대전 문화공원 수자인 - 공급안내" />
@@ -74,8 +74,8 @@ const ComplexGuide1 = () => {
           property="og:description"
           content="세대수, 타입별 공급규모(84㎡·126㎡), 일반·특별공급 정보 등 대전 문화공원 수자인의 공급안내를 확인하세요."
         />
-        <meta property="og:image" content="https://www.vaaclubs.com/Main1.png" />
-        <meta property="og:url" content="https://www.vaaclubs.com/SalesInfo/guide" />
+        <meta property="og:image" content="https://www.apay.co.kr/Main1.png" />
+        <meta property="og:url" content="https://www.apay.co.kr/SalesInfo/guide" />
         <meta property="og:site_name" content="대전 문화공원 수자인" />
 
         {/* Twitter 카드 설정 */}
@@ -85,8 +85,8 @@ const ComplexGuide1 = () => {
           name="twitter:description"
           content="타입별 공급규모와 일반·특별공급 정보를 한 번에 확인하세요."
         />
-        <meta name="twitter:image" content="https://www.vaaclubs.com/Main1.png" />
-        <meta name="twitter:url" content="https://www.vaaclubs.com/SalesInfo/guide" />
+        <meta name="twitter:image" content="https://www.apay.co.kr/Main1.png" />
+        <meta name="twitter:url" content="https://www.apay.co.kr/SalesInfo/guide" />
 
         {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
         <script type="application/ld+json">
@@ -96,7 +96,7 @@ const ComplexGuide1 = () => {
               "@type": "WebPage",
               "name": "대전 문화공원 수자인 - 공급안내",
               "description": "대전 문화공원 수자인 공급안내 — 세대수, 타입별 공급규모(84㎡·126㎡), 일반·특별공급, 계약 및 유의사항 정보.",
-              "url": "https://www.vaaclubs.com/SalesInfo/guide"
+              "url": "https://www.apay.co.kr/SalesInfo/guide"
             }
           `}
         </script>

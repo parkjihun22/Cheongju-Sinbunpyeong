@@ -71,7 +71,7 @@ const ComplexGuide1 = () => {
     name="keywords"
     content="대전 문화공원 수자인, 단지배치도, 동호수배치, 수자인 단지안내, 대전 아파트 분양"
   />
-  <link rel="canonical" href="https://www.vaaclubs.com/ComplexGuide/intro" />
+  <link rel="canonical" href="https://www.apay.co.kr/ComplexGuide/intro" />
 
   {/* Open Graph - 소셜 미디어 공유 최적화 */}
   <meta property="og:title" content="대전 문화공원 수자인 - 단지배치도" />
@@ -79,8 +79,8 @@ const ComplexGuide1 = () => {
     property="og:description"
     content="대전 문화공원 수자인의 단지 배치도에서 동·호수 구성과 커뮤니티, 조경, 주차 및 보행 동선을 한눈에 확인하세요."
   />
-  <meta property="og:image" content="https://www.vaaclubs.com/Main1.png" />
-  <meta property="og:url" content="https://www.vaaclubs.com/ComplexGuide/intro" />
+  <meta property="og:image" content="https://www.apay.co.kr/Main1.png" />
+  <meta property="og:url" content="https://www.apay.co.kr/ComplexGuide/intro" />
   <meta property="og:site_name" content="대전 문화공원 수자인" />
 
   {/* Twitter 카드 설정 */}
@@ -90,8 +90,8 @@ const ComplexGuide1 = () => {
     name="twitter:description"
     content="대전 문화공원 수자인의 단지 배치도와 커뮤니티 배치를 확인하세요."
   />
-  <meta name="twitter:image" content="https://www.vaaclubs.com/Main1.png" />
-  <meta name="twitter:url" content="https://www.vaaclubs.com/ComplexGuide/intro" />
+  <meta name="twitter:image" content="https://www.apay.co.kr/Main1.png" />
+  <meta name="twitter:url" content="https://www.apay.co.kr/ComplexGuide/intro" />
 
   {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
   <script type="application/ld+json">
@@ -101,7 +101,7 @@ const ComplexGuide1 = () => {
         "@type": "WebPage",
         "name": "대전 문화공원 수자인 - 단지배치도",
         "description": "대전 문화공원 수자인의 단지 배치도를 통해 동·호수 구성, 커뮤니티 위치, 조경 및 보행 동선을 확인하세요.",
-        "url": "https://www.vaaclubs.com/ComplexGuide/intro"
+        "url": "https://www.apay.co.kr/ComplexGuide/intro"
       }
     `}
   </script>

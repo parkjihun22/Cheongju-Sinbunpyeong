@@ -70,7 +70,7 @@ const ComplexGuide1 = () => {
   />
   <link
     rel="canonical"
-    href="https://www.vaaclubs.com/ComplexGuide/detailintro"
+    href="https://www.apay.co.kr/ComplexGuide/detailintro"
   />
 
   {/* Open Graph - 소셜 미디어 공유 최적화 */}
@@ -79,8 +79,8 @@ const ComplexGuide1 = () => {
     property="og:description"
     content="대전 문화공원 수자인의 호수배치도에서 세대 위치, 향, 전망, 공원 조망 가능 여부를 확인하세요."
   />
-  <meta property="og:image" content="https://www.vaaclubs.com/Main1.png" />
-  <meta property="og:url" content="https://www.vaaclubs.com/ComplexGuide/detailintro" />
+  <meta property="og:image" content="https://www.apay.co.kr/Main1.png" />
+  <meta property="og:url" content="https://www.apay.co.kr/ComplexGuide/detailintro" />
   <meta property="og:site_name" content="대전 문화공원 수자인" />
 
   {/* Twitter 카드 설정 */}
@@ -90,8 +90,8 @@ const ComplexGuide1 = () => {
     name="twitter:description"
     content="동·호수별 배치와 평면 특장점을 한눈에 확인하세요."
   />
-  <meta name="twitter:image" content="https://www.vaaclubs.com/Main1.png" />
-  <meta name="twitter:url" content="https://www.vaaclubs.com/ComplexGuide/detailintro" />
+  <meta name="twitter:image" content="https://www.apay.co.kr/Main1.png" />
+  <meta name="twitter:url" content="https://www.apay.co.kr/ComplexGuide/detailintro" />
 
   {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
   <script type="application/ld+json">
@@ -101,7 +101,7 @@ const ComplexGuide1 = () => {
         "@type": "WebPage",
         "name": "대전 문화공원 수자인 - 호수배치도",
         "description": "대전 문화공원 수자인의 호수배치도를 통해 각 세대의 위치, 향, 전망, 공원 조망 가능 여부를 확인하세요.",
-        "url": "https://www.vaaclubs.com/ComplexGuide/detailintro"
+        "url": "https://www.apay.co.kr/ComplexGuide/detailintro"
       }
     `}
   </script>

@@ -61,7 +61,7 @@ const LocationEnvironment1 = () => {
     name="keywords"
     content="대전 문화공원 수자인, 수자인 프리미엄, 숲세권 아파트, 스마트홈, 커뮤니티"
   />
-  <link rel="canonical" href="https://www.vaaclubs.com/LocationEnvironment/primium" />
+  <link rel="canonical" href="https://www.apay.co.kr/LocationEnvironment/primium" />
 
   {/* Open Graph - 소셜 미디어 공유 최적화 */}
   <meta property="og:title" content="대전 문화공원 수자인 - 프리미엄" />
@@ -69,8 +69,8 @@ const LocationEnvironment1 = () => {
     property="og:description"
     content="숲세권 입지와 4Bay 혁신 설계, 스마트홈·커뮤니티로 완성한 수자인의 프리미엄."
   />
-  <meta property="og:image" content="https://www.vaaclubs.com/Main1.png" />
-  <meta property="og:url" content="https://www.vaaclubs.com/LocationEnvironment/primium" />
+  <meta property="og:image" content="https://www.apay.co.kr/Main1.png" />
+  <meta property="og:url" content="https://www.apay.co.kr/LocationEnvironment/primium" />
   <meta property="og:site_name" content="대전 문화공원 수자인" />
 
   {/* Twitter 카드 설정 */}
@@ -80,8 +80,8 @@ const LocationEnvironment1 = () => {
     name="twitter:description"
     content="자연·설계·커뮤니티·브랜드가 어우러진 대전 문화공원 수자인의 프리미엄."
   />
-  <meta name="twitter:image" content="https://www.vaaclubs.com/Main1.png" />
-  <meta name="twitter:url" content="https://www.vaaclubs.com/LocationEnvironment/primium" />
+  <meta name="twitter:image" content="https://www.apay.co.kr/Main1.png" />
+  <meta name="twitter:url" content="https://www.apay.co.kr/LocationEnvironment/primium" />
 
   {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
   <script type="application/ld+json">
@@ -91,7 +91,7 @@ const LocationEnvironment1 = () => {
         "@type": "WebPage",
         "name": "대전 문화공원 수자인 - 프리미엄",
         "description": "대전 문화공원 수자인의 프리미엄: 숲세권 입지, 4Bay 혁신 설계, 스마트홈, 커뮤니티, 브랜드 서비스.",
-        "url": "https://www.vaaclubs.com/LocationEnvironment/primium"
+        "url": "https://www.apay.co.kr/LocationEnvironment/primium"
       }
     `}
   </script>
