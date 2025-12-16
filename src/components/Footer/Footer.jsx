@@ -11,7 +11,7 @@ import InterestPopup from "../InterestPopup/InterestPopup";
 
 // FAMILY SITE 목록 예시
 const partnerSites = [
-  { name: "대전 문화공원 수자인", url: "https://www.apay.co.kr/" },
+  { name: "대전 문화공원 수자인", url: "https://hangboggift.kr/" },
 ];
 
 const Footer = () => {

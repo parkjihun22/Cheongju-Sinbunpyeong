@@ -86,7 +86,7 @@ const ComplexGuide1 = () => {
           name="keywords"
           content="대전 문화공원 수자인, 입주자모집공고, 청약 일정, 특별공급, 1순위 2순위, 제출서류"
         />
-        <link rel="canonical" href="https://www.apay.co.kr/SalesInfo/announcement" />
+        <link rel="canonical" href="https://hangboggift.kr/SalesInfo/announcement" />
 
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
         <meta property="og:title" content="대전 문화공원 수자인 - 모집공고안내" />
@@ -94,8 +94,8 @@ const ComplexGuide1 = () => {
           property="og:description"
           content="청약 자격, 일정, 제출서류 등 대전 문화공원 수자인 입주자모집공고의 필수 정보를 확인하세요."
         />
-        <meta property="og:image" content="https://www.apay.co.kr/Main1.png" />
-        <meta property="og:url" content="https://www.apay.co.kr/SalesInfo/announcement" />
+        <meta property="og:image" content="https://hangboggift.kr/Main1.png" />
+        <meta property="og:url" content="https://hangboggift.kr/SalesInfo/announcement" />
         <meta property="og:site_name" content="대전 문화공원 수자인" />
 
         {/* Twitter 카드 설정 */}
@@ -105,8 +105,8 @@ const ComplexGuide1 = () => {
           name="twitter:description"
           content="입주자모집공고의 일정·자격·서류를 한 번에 확인하세요."
         />
-        <meta name="twitter:image" content="https://www.apay.co.kr/Main1.png" />
-        <meta name="twitter:url" content="https://www.apay.co.kr/SalesInfo/announcement" />
+        <meta name="twitter:image" content="https://hangboggift.kr/Main1.png" />
+        <meta name="twitter:url" content="https://hangboggift.kr/SalesInfo/announcement" />
 
         {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
         <script type="application/ld+json">
@@ -116,7 +116,7 @@ const ComplexGuide1 = () => {
               "@type": "WebPage",
               "name": "대전 문화공원 수자인 - 모집공고안내",
               "description": "대전 문화공원 수자인 입주자모집공고의 일정, 청약 자격, 제출서류 및 유의사항 안내.",
-              "url": "https://www.apay.co.kr/SalesInfo/announcement"
+              "url": "https://hangboggift.kr/SalesInfo/announcement"
             }
           `}
         </script>

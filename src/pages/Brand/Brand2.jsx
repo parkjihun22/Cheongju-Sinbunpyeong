@@ -64,7 +64,7 @@ const Brand2 = () => {
     name="keywords"
     content="대전 문화공원 수자인, 문화동 수자인, 대전 수자인 홍보영상, 대전 아파트 분양, 숲세권 아파트"
   />
-  <link rel="canonical" href="https://www.apay.co.kr/Brand/video" />
+  <link rel="canonical" href="https://hangboggift.kr/Brand/video" />
 
   {/* Open Graph - 소셜 미디어 공유 최적화 */}
   <meta property="og:title" content="대전 문화공원 수자인 - 홍보영상" />
@@ -72,8 +72,8 @@ const Brand2 = () => {
     property="og:description"
     content="대전 문화공원 수자인의 홍보영상으로 숲세권 입지와 프리미엄 단지 가치를 생생하게 확인하세요. 자연과 도심이 공존하는 대전 중심 문화동에서 수자인이 선보이는 새로운 라이프스타일을 영상으로 만나보세요."
   />
-  <meta property="og:image" content="https://www.apay.co.kr/Main1.png" />
-  <meta property="og:url" content="https://www.apay.co.kr/Brand/video" />
+  <meta property="og:image" content="https://hangboggift.kr/Main1.png" />
+  <meta property="og:url" content="https://hangboggift.kr/Brand/video" />
   <meta property="og:site_name" content="대전 문화공원 수자인" />
 
   {/* Twitter 카드 설정 */}
@@ -83,8 +83,8 @@ const Brand2 = () => {
     name="twitter:description"
     content="대전 문화공원 수자인의 홍보영상으로 숲세권 입지와 프리미엄 단지 가치를 생생하게 확인하세요."
   />
-  <meta name="twitter:image" content="https://www.apay.co.kr/Main1.png" />
-  <meta name="twitter:url" content="https://www.apay.co.kr/Brand/video" />
+  <meta name="twitter:image" content="https://hangboggift.kr/Main1.png" />
+  <meta name="twitter:url" content="https://hangboggift.kr/Brand/video" />
 
   {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
   <script type="application/ld+json">
@@ -94,7 +94,7 @@ const Brand2 = () => {
         "@type": "WebPage",
         "name": "대전 문화공원 수자인 - 홍보영상",
         "description": "대전 문화공원 수자인의 홍보영상으로 숲세권 입지와 프리미엄 단지 가치를 생생하게 확인하세요. 자연과 도심이 공존하는 대전 중심 문화동에서 수자인이 선보이는 새로운 라이프스타일을 영상으로 만나보세요.",
-        "url": "https://www.apay.co.kr/Brand/video"
+        "url": "https://hangboggift.kr/Brand/video"
       }
     `}
   </script>

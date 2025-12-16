@@ -107,7 +107,7 @@ const LocationEnvironment1 = () => {
       name="keywords"
       content="대전 문화공원 수자인, 대전 수자인 입지환경, 트램2호선, 대전 문화공원, 보문산, 중구 아파트"
     />
-    <link rel="canonical" href="https://www.apay.co.kr/LocationEnvironment/intro" />
+    <link rel="canonical" href="https://hangboggift.kr/LocationEnvironment/intro" />
   
     {/* Open Graph - 소셜 미디어 공유 최적화 */}
     <meta property="og:title" content="대전 문화공원 수자인 - 입지환경" />
@@ -115,8 +115,8 @@ const LocationEnvironment1 = () => {
       property="og:description"
       content="트램·KTX·문화공원·보문산·생활인프라까지 모두 갖춘 대전 문화공원 수자인의 입지환경."
     />
-    <meta property="og:image" content="https://www.apay.co.kr/Main1.png" />
-    <meta property="og:url" content="https://www.apay.co.kr/LocationEnvironment/intro" />
+    <meta property="og:image" content="https://hangboggift.kr/Main1.png" />
+    <meta property="og:url" content="https://hangboggift.kr/LocationEnvironment/intro" />
     <meta property="og:site_name" content="대전 문화공원 수자인" />
   
     {/* Twitter 카드 설정 */}
@@ -126,8 +126,8 @@ const LocationEnvironment1 = () => {
       name="twitter:description"
       content="트램2호선·서대전역·문화공원·보문산이 어우러진 완벽한 입지환경."
     />
-    <meta name="twitter:image" content="https://www.apay.co.kr/Main1.png" />
-    <meta name="twitter:url" content="https://www.apay.co.kr/LocationEnvironment/intro" />
+    <meta name="twitter:image" content="https://hangboggift.kr/Main1.png" />
+    <meta name="twitter:url" content="https://hangboggift.kr/LocationEnvironment/intro" />
   
     {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
     <script type="application/ld+json">
@@ -137,7 +137,7 @@ const LocationEnvironment1 = () => {
           "@type": "WebPage",
           "name": "대전 문화공원 수자인 - 입지환경",
           "description": "대전 문화공원 수자인의 입지환경 — 트램 2호선, KTX, 문화공원, 보문산, 생활 인프라 완비.",
-          "url": "https://www.apay.co.kr/LocationEnvironment/intro"
+          "url": "https://hangboggift.kr/LocationEnvironment/intro"
         }
       `}
     </script>
@@ -186,7 +186,7 @@ const LocationEnvironment1 = () => {
         />
         <link
           rel="canonical"
-          href="https://www.apay.co.kr/LocationEnvironment/intro"
+          href="https://hangboggift.kr/LocationEnvironment/intro"
         />
 
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
@@ -201,11 +201,11 @@ const LocationEnvironment1 = () => {
         />
         <meta
           property="og:image"
-          content="https://www.apay.co.kr/Main1.png"
+          content="https://hangboggift.kr/Main1.png"
         />
         <meta
           property="og:url"
-          content="https://www.apay.co.kr/LocationEnvironment/intro"
+          content="https://hangboggift.kr/LocationEnvironment/intro"
         />
         <meta property="og:site_name" content="대전 문화공원 수자인" />
 
@@ -222,11 +222,11 @@ const LocationEnvironment1 = () => {
         />
         <meta
           name="twitter:image"
-          content="https://www.apay.co.kr/Main1.png"
+          content="https://hangboggift.kr/Main1.png"
         />
         <meta
           name="twitter:url"
-          content="https://www.apay.co.kr/LocationEnvironment/intro"
+          content="https://hangboggift.kr/LocationEnvironment/intro"
         />
 
         {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
@@ -238,7 +238,7 @@ const LocationEnvironment1 = () => {
 											"name": "대전 문화공원 수자인 - 입지환경",
 											"description": "대전 문화공원 수자인의 입지 정보를 확인하세요. 뛰어난 교통망, 생활 인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 용인의 중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다
 ",
-											"url": "https://www.apay.co.kr/LocationEnvironment/intro"
+											"url": "https://hangboggift.kr/LocationEnvironment/intro"
 										}
 										`}
         </script>
