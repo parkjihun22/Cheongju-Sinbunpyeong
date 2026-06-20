@@ -15,7 +15,7 @@ import Popup from "../../components/Popup/Popup";
 import MobileSectionBox from "../../components/MobileSectionBox/MobileSectionBox";
 import InterestPopup from "../../components/InterestPopup/InterestPopup"; // 새 팝업 컴포넌트 import
 // import UrlContainer from "../../components/UrlContainer/UrlContainer";
-
+import FAQSection from "../../components/FAQSection/FAQSection"
 
 
 import mainImage from "../../assets/Main/Main1.jpg";
@@ -379,6 +379,8 @@ const handleInputChange = (e) => {
             </div>
           </div>
           <div id="interestForm" className={styles.section}></div>
+          <FAQSection />
+
 
           {/* ================== 방문예약 섹션 (PC) ================== */}
 <div className={styles.pcVisitContainer}>
@@ -648,6 +650,7 @@ const handleInputChange = (e) => {
               </Link>
             </div>
           </div>
+          <FAQSection />
 
           {/* 모바일 방문예약 섹션 */}
 <div className={styles.mobileVisitContainer}>
